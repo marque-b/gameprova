@@ -1,0 +1,1169 @@
+{
+  "meta": {
+    "name": "Arrais Amador 2020-2024",
+    "version": "1.0.0",
+    "source": "bancas oficiais",
+    "lang": "pt-BR"
+  },
+  "config": {
+    "defaultTimeSec": 30,
+    "shuffle": true
+  },
+  "questions": [
+    {
+      "id": "AA-239",
+      "category": "Legislação",
+      "prompt": "A prerrogativa de estabelecer o valor da multa e o período de suspensão do Certificado de Habilitação, respeitados os limites estipulados na RLESTA, é de competência:",
+      "choices": [
+        { "id": "A", "text": "do governo federal" },
+        { "id": "B", "text": "das prefeituras" },
+        { "id": "C", "text": "do representante da Autoridade Marítima" },
+        { "id": "D", "text": "dos municípios" },
+        { "id": "E", "text": "do Tribunal Marítimo" }
+      ],
+      "answer": "C",
+      "tags": [
+        "multa",
+        "suspensão",
+        "habilitação",
+        "RLESTA",
+        "competência",
+        "autoridade marítima"
+      ]
+    },
+    {
+      "id": "AA-240",
+      "category": "Habilitação",
+      "prompt": "Uma embarcação classificada como de alto-mar, quando navegando em local de sua classe, só poderá ser conduzida por:",
+      "choices": [
+        { "id": "A", "text": "Mestre-Amador" },
+        { "id": "B", "text": "Arrais-Amador" },
+        { "id": "C", "text": "Veleiro" },
+        { "id": "D", "text": "Capitão-Amador" },
+        { "id": "E", "text": "Motonauta" }
+      ],
+      "answer": "D",
+      "tags": [
+        "embarcação",
+        "alto-mar",
+        "habilitação",
+        "Capitão-Amador",
+        "condução"
+      ]
+    },
+    {
+      "id": "AA-241",
+      "category": "Navegação",
+      "prompt": "É alinha de arrebentações das ondas ou, no caso de lagos e lagoas, onde se inicia o espelho d’água:",
+      "choices": [
+        { "id": "A", "text": "linha do tempo" },
+        { "id": "B", "text": "linha de arrebentação" },
+        { "id": "C", "text": "linha base" },
+        { "id": "D", "text": "linha do espelho d’água" },
+        { "id": "E", "text": "linha d´água" }
+      ],
+      "answer": "C",
+      "tags": [
+        "terminologia",
+        "linha base",
+        "arrebentação",
+        "lagos",
+        "navegação"
+      ]
+    },
+    {
+      "id": "AA-242",
+      "category": "Regulamentação",
+      "prompt": "As embarcações sem propulsão mecânica ou com propulsão à vela e a remo poderão se aproximar da praia até:",
+      "choices": [
+        { "id": "A", "text": "500 metros da linha base" },
+        { "id": "B", "text": "200 metros da linha de base" },
+        { "id": "C", "text": "400 metros da linha base" },
+        { "id": "D", "text": "100 metros da linha base" },
+        { "id": "E", "text": "300 metros da linha base" }
+      ],
+      "answer": "D",
+      "tags": ["distância", "praia", "aproximação", "embarcação", "regulamento"]
+    },
+    {
+      "id": "AA-243",
+      "category": "Regulamentação",
+      "prompt": "Embarcação de propulsão a motor ou à vela poderão se aproximar da linha base para fundear, caso não haja nenhum dispositivo contrário estabelecido pela autoridade competente. Toda aproximação deverá ser feita:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "paralela a linha base e com velocidade até 6 nós, preservando a segurança dos banhistas"
+        },
+        {
+          "id": "B",
+          "text": "perpendicular a linha base e com velocidade não superior a 5 nós, preservando a segurança dos banhistas"
+        },
+        {
+          "id": "C",
+          "text": "perpendicular a linha base e com velocidade não superior a 3 nós, preservando a segurança dos banhistas"
+        },
+        {
+          "id": "D",
+          "text": "paralela a linha base e com velocidade não superior a 3 nós, preservando a segurança dos banhistas"
+        },
+        {
+          "id": "E",
+          "text": "em qualquer direção em relação a linha base e com velocidade não superior a 3 nós, preservando a segurança dos banhistas"
+        }
+      ],
+      "answer": "C",
+      "tags": [
+        "aproximação",
+        "fundear",
+        "linha base",
+        "velocidade",
+        "segurança",
+        "regulamento"
+      ]
+    },
+    {
+      "id": "AA-244",
+      "category": "Regulamentação",
+      "prompt": "Considerando as áreas seletivas para navegação, definidas pela NORMAM-03, as embarcações de propulsão a motor, reboque de esqui aquático, paraquedas e painéis de publicidade poderão trafegar a partir de:",
+      "choices": [
+        { "id": "A", "text": "500 metros da linha base" },
+        { "id": "B", "text": "200 metros da linha após base" },
+        { "id": "C", "text": "200 metros da linha base" },
+        { "id": "D", "text": "100 metros da linha base" },
+        { "id": "E", "text": "300 metros da linha base" }
+      ],
+      "answer": "C",
+      "tags": [
+        "áreas seletivas",
+        "navegação",
+        "NORMAM-03",
+        "distância",
+        "reboque"
+      ]
+    },
+    {
+      "id": "AA-245",
+      "category": "Legislação",
+      "prompt": "Conduzir embarcação em estado de embriaguez ou após uso de substância entorpecente ou tóxica, quando não constituir crime previsto em lei, acarretará a suspensão do Certificado de Habilitação, sem prejuízo de outras penalidades previstas, em até:",
+      "choices": [
+        { "id": "A", "text": "40 dias" },
+        { "id": "B", "text": "90 dias" },
+        { "id": "C", "text": "60 dias" },
+        { "id": "D", "text": "30 dias" },
+        { "id": "E", "text": "120 dias" }
+      ],
+      "answer": "E",
+      "tags": [
+        "embriaguez",
+        "suspensão",
+        "habilitação",
+        "penalidade",
+        "prazo",
+        "legislação"
+      ]
+    },
+    {
+      "id": "AA-246",
+      "category": "Habilitação",
+      "prompt": "Um navegante amador habilitado para conduzir embarcações de esporte e/ou recreio, além de moto aquática, limitado a águas interiores é chamado:",
+      "choices": [
+        { "id": "A", "text": "Mestre-Amador" },
+        { "id": "B", "text": "Veleiro" },
+        { "id": "C", "text": "Arrais-Amador" },
+        { "id": "D", "text": "Capitão-Amador" },
+        { "id": "E", "text": "Motonauta" }
+      ],
+      "answer": "C",
+      "tags": [
+        "amador",
+        "habilitação",
+        "Arrais-Amador",
+        "águas interiores",
+        "moto aquática"
+      ]
+    },
+    {
+      "id": "AA-247",
+      "category": "Habilitação",
+      "prompt": "Em relação a condução da moto aquática (jet-ski ou similar), qual das opções está totalmente correta:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Pode ser conduzida por qualquer Mestre Amador ou Capitão Amador"
+        },
+        { "id": "B", "text": "Pode ser conduzida por qualquer Motonauta" },
+        { "id": "C", "text": "Pode ser conduzida somente por Arrais Amador" },
+        { "id": "D", "text": "Pode ser conduzida por qualquer Arrais Amador" },
+        {
+          "id": "E",
+          "text": "Pode ser conduzida por qualquer Amador experiente"
+        }
+      ],
+      "answer": "B",
+      "tags": [
+        "moto aquática",
+        "jet-ski",
+        "Motonauta",
+        "condução",
+        "habilitação"
+      ]
+    },
+    {
+      "id": "AA-248",
+      "category": "Comandante",
+      "prompt": "Todas as pessoas a bordo estão sujeitas à autoridade:",
+      "choices": [
+        { "id": "A", "text": "do Imediato" },
+        { "id": "B", "text": "do comandante" },
+        { "id": "C", "text": "do armador" },
+        { "id": "D", "text": "da polícia local" },
+        { "id": "E", "text": "do proprietário" }
+      ],
+      "answer": "B",
+      "tags": ["autoridade", "comandante", "bordo", "responsabilidade"]
+    },
+    {
+      "id": "AA-249",
+      "category": "Documentação",
+      "prompt": "O registro da embarcação com 24 metros ou mais de comprimento, ou Arqueação Bruta (A maior que 100, é feito no (a):",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Capitania dos Portos ou órgãos subordinados, com a emissão do Registro de Propriedade (RP)"
+        },
+        { "id": "B", "text": "Prefeitura da cidade" },
+        {
+          "id": "C",
+          "text": "Tribunal Marítimo, com a expedição da Provisão de Registro de Propriedade Marítima (PRPM)"
+        },
+        {
+          "id": "D",
+          "text": "DPC, com a emissão do Certificado de Registro de Embarcação (CRE)"
+        },
+        {
+          "id": "E",
+          "text": "Órgão de inscrição onde será emitido, além do Certificado de Inscrição, o Certificado de Registro de Propriedade Marítima (CRPM)"
+        }
+      ],
+      "answer": "C",
+      "tags": [
+        "registro",
+        "embarcação",
+        "comprimento",
+        "arqueação",
+        "Tribunal Marítimo",
+        "documentação"
+      ]
+    },
+    {
+      "id": "AA-250",
+      "category": "Fiscalização",
+      "prompt": "É passível de ocorrer a apreensão da embarcação, quando:",
+      "choices": [
+        { "id": "A", "text": "for utilizada comercialmente" },
+        { "id": "B", "text": "trafegar em área de segurança" },
+        { "id": "C", "text": "estiver sem dotação de extintores" },
+        { "id": "D", "text": "estiver em péssimo estado de conservação" },
+        { "id": "E", "text": "todas acima" }
+      ],
+      "answer": "E",
+      "tags": [
+        "apreensão",
+        "embarcação",
+        "fiscalização",
+        "penalidade",
+        "irregularidade"
+      ]
+    },
+    {
+      "id": "AA-251",
+      "category": "Legislação",
+      "prompt": "Qual das proposições abaixo não está correta, com relação ao uso de embarcações de esporte e recreio?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "O seu empréstimo a um oficial da Marinha do Brasil, sendo esse do Corpo da Armada"
+        },
+        {
+          "id": "B",
+          "text": "O seu empréstimo a uma pessoa habilitada responsável"
+        },
+        {
+          "id": "C",
+          "text": "A sua condução por um profissional da Marinha Mercante, devidamente habilitado"
+        },
+        { "id": "D", "text": "O seu uso para atividades comerciais" },
+        {
+          "id": "E",
+          "text": "A sua condução por um Marítimo Regional, devidamente habilitado"
+        }
+      ],
+      "answer": "D",
+      "tags": [
+        "embarcação",
+        "esporte e recreio",
+        "uso comercial",
+        "legislação",
+        "proibição"
+      ]
+    },
+    {
+      "id": "AA-252",
+      "category": "Documentação",
+      "prompt": "Qual o nome do documento em que, o proprietário da embarcação de esporte e recreio, assume a responsabilidade pela condição de operação de sua embarcação?",
+      "choices": [
+        { "id": "A", "text": "Título de propriedade" },
+        { "id": "B", "text": "Plano de navegação" },
+        { "id": "C", "text": "Termo de responsabilidade" },
+        { "id": "D", "text": "Título de cessão" },
+        { "id": "E", "text": "TIEM" }
+      ],
+      "answer": "C",
+      "tags": [
+        "documento",
+        "responsabilidade",
+        "embarcação",
+        "Termo de Responsabilidade"
+      ]
+    },
+    {
+      "id": "AA-253",
+      "category": "Habilitação",
+      "prompt": "Um navegante com habilitação certificada pela Autoridade Marítima para conduzir embarcações de esporte e recreio em caráter não profissional é chamado de:",
+      "choices": [
+        { "id": "A", "text": "armador" },
+        { "id": "B", "text": "tripulante" },
+        { "id": "C", "text": "marítimo" },
+        { "id": "D", "text": "amador" },
+        { "id": "E", "text": "aquaviário" }
+      ],
+      "answer": "D",
+      "tags": ["amador", "habilitação", "não profissional", "terminologia"]
+    },
+    {
+      "id": "AA-254",
+      "category": "Terminologia",
+      "prompt": "Aquaviário ou amador que exerce funções, embarcado, na operação da embarcação:",
+      "choices": [
+        { "id": "A", "text": "Proprietário" },
+        { "id": "B", "text": "tripulante" },
+        { "id": "C", "text": "amador" },
+        { "id": "D", "text": "aquaviário" },
+        { "id": "E", "text": "passageiro" }
+      ],
+      "answer": "B",
+      "tags": ["tripulante", "amador", "aquaviário", "funções", "terminologia"]
+    },
+    {
+      "id": "AA-255",
+      "category": "Segurança",
+      "prompt": "Quem estabelece os requisitos para homologação de Estações de Manutenção de Equipamentos de Salvatagem é:",
+      "choices": [
+        { "id": "A", "text": "o INMETRO" },
+        { "id": "B", "text": "a IMO" },
+        { "id": "C", "text": "a Autoridade Marítima" },
+        { "id": "D", "text": "o fabricante" },
+        { "id": "E", "text": "a Diretoria de Hidrografia e Navegação" }
+      ],
+      "answer": "C",
+      "tags": [
+        "salvatagem",
+        "equipamentos",
+        "homologação",
+        "Autoridade Marítima",
+        "segurança"
+      ]
+    },
+    {
+      "id": "AA-256",
+      "category": "Fiscalização",
+      "prompt": "Caso a irregularidade determinante da apreensão da embarcação não seja sanada no prazo devido, a embarcação:",
+      "choices": [
+        { "id": "A", "text": "será expropriada" },
+        { "id": "B", "text": "será leiloada ou incorporada aos bens da União" },
+        { "id": "C", "text": "não poderá mais navegar" },
+        { "id": "D", "text": "terá sua inscrição cancelada" },
+        { "id": "E", "text": "será desmanchada" }
+      ],
+      "answer": "B",
+      "tags": [
+        "apreensão",
+        "embarcação",
+        "irregularidade",
+        "leilão",
+        "fiscalização",
+        "penalidade"
+      ]
+    },
+    {
+      "id": "AA-257",
+      "category": "Sinalização",
+      "prompt": "Os danos causados aos sinais náuticos sujeitam o causador a:",
+      "choices": [
+        { "id": "A", "text": "suspensão da habilitação por dois anos" },
+        { "id": "B", "text": "trabalhos comunitários" },
+        { "id": "C", "text": "repará-los" },
+        { "id": "D", "text": "inquérito policial" },
+        { "id": "E", "text": "prisão domiciliar" }
+      ],
+      "answer": "C",
+      "tags": ["sinais náuticos", "danos", "penalidade", "reparação"]
+    },
+    {
+      "id": "AA-258",
+      "category": "Legislação",
+      "prompt": "Um infrator, após o recebimento do auto de infração, pode apresentar sua defesa num prazo de:",
+      "choices": [
+        { "id": "A", "text": "12 dias" },
+        { "id": "B", "text": "10 dias" },
+        { "id": "C", "text": "20 dias" },
+        { "id": "D", "text": "15 dias" },
+        { "id": "E", "text": "5 dias" }
+      ],
+      "answer": "D",
+      "tags": ["infração", "auto de infração", "defesa", "prazo", "legislação"]
+    },
+    {
+      "id": "AA-259",
+      "category": "Penalidades",
+      "prompt": "A pena de suspensão da habilitação não poderá ser superior a:",
+      "choices": [
+        { "id": "A", "text": "3 meses" },
+        { "id": "B", "text": "6 meses" },
+        { "id": "C", "text": "24 meses" },
+        { "id": "D", "text": "12 meses" },
+        { "id": "E", "text": "5 meses" }
+      ],
+      "answer": "D",
+      "tags": ["suspensão", "habilitação", "pena", "prazo", "penalidade"]
+    },
+    {
+      "id": "AA-260",
+      "category": "Navegação",
+      "prompt": "A navegação realizada em hidrovias interiores, assim considerados rios, lagos, canais, lagoas, baías, angras, enseadas e áreas marítimas abrigadas é classificada como:",
+      "choices": [
+        { "id": "A", "text": "mar fechado" },
+        { "id": "B", "text": "fluvial" },
+        { "id": "C", "text": "lacustre" },
+        { "id": "D", "text": "água doce" },
+        { "id": "E", "text": "interior" }
+      ],
+      "answer": "E",
+      "tags": [
+        "navegação",
+        "águas interiores",
+        "hidrovias",
+        "rios",
+        "lagos",
+        "classificação"
+      ]
+    },
+    {
+      "id": "AA-261",
+      "category": "Penalidades",
+      "prompt": "A reincidência, para efeito de gradação das penalidades, é a repetição da mesma infração em um período igual ou inferior a:",
+      "choices": [
+        { "id": "A", "text": "3 meses" },
+        { "id": "B", "text": "18 meses" },
+        { "id": "C", "text": "24 meses" },
+        { "id": "D", "text": "5 meses" },
+        { "id": "E", "text": "12 meses" }
+      ],
+      "answer": "E",
+      "tags": ["reincidência", "infração", "penalidade", "prazo"]
+    },
+    {
+      "id": "AA-262",
+      "category": "Penalidades",
+      "prompt": "São circunstâncias agravantes às infrações:",
+      "choices": [
+        { "id": "A", "text": "pane seca" },
+        { "id": "B", "text": "ser estrangeiro" },
+        { "id": "C", "text": "danos" },
+        { "id": "D", "text": "poluição" },
+        { "id": "E", "text": "reincidência" }
+      ],
+      "answer": "E",
+      "tags": ["agravantes", "infrações", "penalidade", "reincidência"]
+    },
+    {
+      "id": "AA-263",
+      "category": "Fiscalização",
+      "prompt": "A autoridade marítima sustará o andamento de qualquer documento ou ato administrativo de interesse de quem estiver em débito decorrente de infração até:",
+      "choices": [
+        { "id": "A", "text": "sua venda" },
+        { "id": "B", "text": "60 dias" },
+        { "id": "C", "text": "a regularização da embarcação" },
+        { "id": "D", "text": "12 meses" },
+        { "id": "E", "text": "Sua quitação" }
+      ],
+      "answer": "E",
+      "tags": [
+        "débito",
+        "infração",
+        "autoridade marítima",
+        "documento",
+        "quitação"
+      ]
+    },
+    {
+      "id": "AA-264",
+      "category": "Comandante",
+      "prompt": "O comandante, no exercício das suas funções e para a garantia da segurança das pessoas, da embarcação e da carga transportada, pode:",
+      "choices": [
+        { "id": "A", "text": "encalhar a embarcação" },
+        { "id": "B", "text": "multar qualquer tripulante ou passageiro" },
+        { "id": "C", "text": "dispensar o prático" },
+        { "id": "D", "text": "abandonar o barco" },
+        { "id": "E", "text": "ordenar o desembarque de qualquer pessoa" }
+      ],
+      "answer": "E",
+      "tags": [
+        "comandante",
+        "funções",
+        "segurança",
+        "embarque",
+        "desembarque",
+        "autoridade"
+      ]
+    },
+    {
+      "id": "AA-265",
+      "category": "Fiscalização",
+      "prompt": "É passível correr interrupção da singradura (viagem) quando:",
+      "choices": [
+        { "id": "A", "text": "estiver em péssimo estado de conservação" },
+        { "id": "B", "text": "trafegar em áreas de segurança" },
+        { "id": "C", "text": "trafegar em canais balizados" },
+        { "id": "D", "text": "estiver com excesso de lotação" },
+        {
+          "id": "E",
+          "text": "a embarcação estiver sem luzes e marcas, previstas no RIPEAM"
+        }
+      ],
+      "answer": "D",
+      "tags": ["interrupção", "singradura", "viagem", "lotação", "fiscalização"]
+    },
+    {
+      "id": "AA-266",
+      "category": "Documentação",
+      "prompt": "É obrigatório sua apresentação, antes de sair para navegar:",
+      "choices": [
+        { "id": "A", "text": "relatório de qualidade de combustível" },
+        { "id": "B", "text": "relação de passageiros" },
+        { "id": "C", "text": "plano de navegação" },
+        { "id": "D", "text": "relação de passageiros e tripulantes" },
+        { "id": "E", "text": "Cartão de Tripulação de Segurança" }
+      ],
+      "answer": "C",
+      "tags": ["plano de navegação", "documentação", "obrigatório", "navegação"]
+    },
+    {
+      "id": "AA-267",
+      "category": "Segurança",
+      "prompt": "Áreas de segurança são áreas:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "utilizadas para inspeção de embarcações com carga suspeita ou perigosa"
+        },
+        { "id": "B", "text": "usadas para o planejamento de navegação segura" },
+        {
+          "id": "C",
+          "text": "utilizadas para o tráfego de embarcação, com situações de emergência"
+        },
+        { "id": "D", "text": "de tráfego ou fundeio proibido" },
+        { "id": "E", "text": "de limite de navegação" }
+      ],
+      "answer": "D",
+      "tags": [
+        "áreas de segurança",
+        "tráfego proibido",
+        "fundeio proibido",
+        "segurança",
+        "navegação"
+      ]
+    },
+    {
+      "id": "AA-268",
+      "category": "Equipamentos",
+      "prompt": "O que o proprietário deve fazer, com relação a equipamentos de salvatagem importados, para utilizá-los a bordo?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Deverá utilizá-los normalmente, pois não há restrições quanto a isso"
+        },
+        { "id": "B", "text": "Deverá informar à Autoridade Naval, seu uso" },
+        {
+          "id": "C",
+          "text": "Deverá enviar os manuais, para a Capitania dos Portos"
+        },
+        {
+          "id": "D",
+          "text": "Deverá se fazer deles, pois são inadequados em sua maioria"
+        },
+        { "id": "E", "text": "Deverá homologá-los na DPC" }
+      ],
+      "answer": "E",
+      "tags": [
+        "salvatagem",
+        "equipamentos importados",
+        "homologação",
+        "DPC",
+        "segurança"
+      ]
+    },
+    {
+      "id": "AA-269",
+      "category": "Habilitação",
+      "prompt": "Qual a validade das carteiras de Habilitação?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "10 anos, renovável sem obrigatoriedade de exames"
+        },
+        { "id": "B", "text": "Indeterminado" },
+        { "id": "C", "text": "5 anos, renovável com avaliação de reciclagem" },
+        {
+          "id": "D",
+          "text": "5 anos, renovável sem obrigatoriedade de exames"
+        },
+        { "id": "E", "text": "10 anos, renovável com avaliação de reciclagem" }
+      ],
+      "answer": "A",
+      "tags": ["validade", "habilitação", "carteira", "renovação"]
+    },
+    {
+      "id": "AA-270",
+      "category": "Segurança",
+      "prompt": "A distância mínima de fundeio de qualquer embarcação para unidades estacionárias de produção de petróleo é:",
+      "choices": [
+        { "id": "A", "text": "300 metros" },
+        { "id": "B", "text": "100 metros" },
+        { "id": "C", "text": "200 metros" },
+        { "id": "D", "text": "400 metros" },
+        { "id": "E", "text": "500 metros" }
+      ],
+      "answer": "E",
+      "tags": ["fundeio", "distância", "petróleo", "segurança", "regulamento"]
+    },
+    {
+      "id": "AA-271",
+      "category": "Navegação",
+      "prompt": "Um navegante vai de Belém para o Rio de Janeiro, ele estará realizando uma navegação de:",
+      "choices": [
+        { "id": "A", "text": "Alto-mar" },
+        { "id": "B", "text": "Longo curso" },
+        { "id": "C", "text": "Cabotagem" },
+        { "id": "D", "text": "Escalas" },
+        { "id": "E", "text": "Interior" }
+      ],
+      "answer": "C",
+      "tags": [
+        "navegação",
+        "cabotagem",
+        "tipos de navegação",
+        "longo curso",
+        "portos brasileiros"
+      ]
+    },
+    {
+      "id": "AA-272",
+      "category": "Navegação",
+      "prompt": "Segundo a RLESTA a navegação realizada entre portos ou pontos do território brasileiros, utilizando a via marítima ou está e as vias navegáveis interiores é e estrangeiros é:",
+      "choices": [
+        { "id": "A", "text": "cabotagem" },
+        { "id": "B", "text": "longo curso" },
+        { "id": "C", "text": "ortodrômica" },
+        { "id": "D", "text": "interior" },
+        { "id": "E", "text": "loxodrômica" }
+      ],
+      "answer": "A",
+      "tags": [
+        "RLESTA",
+        "navegação",
+        "cabotagem",
+        "águas interiores",
+        "portos brasileiros",
+        "classificação"
+      ]
+    },
+    {
+      "id": "AA-273",
+      "category": "Fiscalização",
+      "prompt": "Qual o prazo estabelecido pela LESTA para sanar irregularidades determinantes de apreensão da embarcação de modo a não ficar sujeita a leilão ou incorporação aos bens da união?",
+      "choices": [
+        { "id": "A", "text": "30 dias" },
+        { "id": "B", "text": "12 meses" },
+        { "id": "C", "text": "120 dias" },
+        { "id": "D", "text": "90 dias" },
+        { "id": "E", "text": "60 dias" }
+      ],
+      "answer": "D",
+      "tags": ["LESTA", "apreensão", "irregularidade", "prazo", "leilão"]
+    },
+    {
+      "id": "AA-274",
+      "category": "Penalidades",
+      "prompt": "Os danos causados aos sinais náuticos sujeitam ao infrator a repará-los e pagar multa do grupo “D’ (de 40,00 a 1.600,0ou poderá suspender o certificado de habilitação em até:",
+      "choices": [
+        { "id": "A", "text": "15 dias" },
+        { "id": "B", "text": "120 dias" },
+        { "id": "C", "text": "90 dias" },
+        { "id": "D", "text": "30 dias" },
+        { "id": "E", "text": "60 dias" }
+      ],
+      "answer": "E",
+      "tags": [
+        "sinais náuticos",
+        "danos",
+        "multa",
+        "suspensão",
+        "habilitação",
+        "penalidade"
+      ]
+    },
+    {
+      "id": "AA-275",
+      "category": "Penalidades",
+      "prompt": "Descumprir o RIPEM poderá causar ao condutor da embarcação a suspensão do certificado de habilitação em até:",
+      "choices": [
+        { "id": "A", "text": "40 dias" },
+        { "id": "B", "text": "90 dias" },
+        { "id": "C", "text": "60 dias" },
+        { "id": "D", "text": "30 dias" },
+        { "id": "E", "text": "120 dias" }
+      ],
+      "answer": "C",
+      "tags": [
+        "RIPEM",
+        "suspensão",
+        "habilitação",
+        "descumprimento",
+        "penalidade"
+      ]
+    },
+    {
+      "id": "AA-276",
+      "category": "Segurança",
+      "prompt": "Trafegar em área reservada a banhistas poderá suspender o certificado de habilitação em até:",
+      "choices": [
+        { "id": "A", "text": "120 dias" },
+        { "id": "B", "text": "180 dias" },
+        { "id": "C", "text": "60 dias" },
+        { "id": "D", "text": "30 dias" },
+        { "id": "E", "text": "90 dias" }
+      ],
+      "answer": "C",
+      "tags": [
+        "área de banhistas",
+        "trafegar",
+        "suspensão",
+        "habilitação",
+        "segurança",
+        "penalidade"
+      ]
+    },
+    {
+      "id": "AA-277",
+      "category": "Documentação",
+      "prompt": "São duas situações que geram o cancelamento da inscrição da embarcação:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "a morte de seu proprietário e a sua colisão, com morte acidental"
+        },
+        { "id": "B", "text": "sua apreensão e a morte de seu proprietário" },
+        { "id": "C", "text": "o naufrágio e o abandono" },
+        {
+          "id": "D",
+          "text": "o nome igual a de outra já inscrita e sua apreensão"
+        },
+        {
+          "id": "E",
+          "text": "o não pagamento da anuidade e envolvimento em acidente"
+        }
+      ],
+      "answer": "C",
+      "tags": [
+        "cancelamento",
+        "inscrição",
+        "embarcação",
+        "naufrágio",
+        "abandono",
+        "documentação"
+      ]
+    },
+    {
+      "id": "AA-278",
+      "category": "Penalidades",
+      "prompt": "A penalidade por conduzir embarcação em estado de embriaguez é:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "suspensão definitiva do Certificado de Habilitação"
+        },
+        {
+          "id": "B",
+          "text": "suspensão Certificado de Habilitação até noventa dias"
+        },
+        {
+          "id": "C",
+          "text": "suspensão do Certificado de Habilitação até cento e vinte dias. A reincidência sujeitará o infrator à pena de cancelamento do Certificado de Habilitação"
+        },
+        {
+          "id": "D",
+          "text": "suspensão do Certificado de Habilitação até sessenta dias"
+        },
+        { "id": "E", "text": "cancelamento do Certificado de Habilitação" }
+      ],
+      "answer": "C",
+      "tags": [
+        "embriaguez",
+        "penalidade",
+        "suspensão",
+        "cancelamento",
+        "habilitação",
+        "reincidência"
+      ]
+    },
+    {
+      "id": "AA-279",
+      "category": "Navegação",
+      "prompt": "Uma embarcação miúda só poderá ser classificada para navegação do tipo:",
+      "choices": [
+        { "id": "A", "text": "Oceânica" },
+        { "id": "B", "text": "Costeira" },
+        { "id": "C", "text": "Interior" },
+        { "id": "D", "text": "mar aberto" },
+        { "id": "E", "text": "longo curso" }
+      ],
+      "answer": "C",
+      "tags": ["embarcação miúda", "navegação interior", "classificação"]
+    },
+    {
+      "id": "AA-280",
+      "category": "Legislação",
+      "prompt": "Qual das proposições abaixo não está correta, com relação ao uso de embarcação de esporte e recreio?",
+      "choices": [
+        { "id": "A", "text": "o seu aluguel comercial" },
+        {
+          "id": "B",
+          "text": "o seu empréstimo a um oficial da Marinha do Brasil, sendo esse do Corpo da Armada"
+        },
+        {
+          "id": "C",
+          "text": "o seu empréstimo a pessoa habilitada responsável"
+        },
+        { "id": "D", "text": "a sua condução por um Regional" },
+        {
+          "id": "E",
+          "text": "a sua condução por qualquer profissional de Marinha Mercante"
+        }
+      ],
+      "answer": "A",
+      "tags": [
+        "embarcação",
+        "esporte e recreio",
+        "aluguel comercial",
+        "legislação",
+        "proibição"
+      ]
+    },
+    {
+      "id": "AA-281",
+      "category": "Habilitação",
+      "prompt": "Qual a idade mínima e qual a condição necessária para habilitação a veleiro?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "8 anos e deverá ser filiado a um clube náutico, marina organizada ou grupo de escoteiro do mar"
+        },
+        {
+          "id": "B",
+          "text": "16 anos e deverá ser filiado a um clube náutico, marina organizada ou grupo de escoteiro de escoteiros"
+        },
+        {
+          "id": "C",
+          "text": "10 anos e deve ser habilitado em exame na Capitania dos Portos"
+        },
+        {
+          "id": "D",
+          "text": "12 anos e deve ser habilitado em exame na Capitania dos Portos"
+        },
+        {
+          "id": "E",
+          "text": "18 anos, bastando apresentar um certificado de conhecimentos básicos de segurança da navegação"
+        }
+      ],
+      "answer": "A",
+      "tags": [
+        "veleiro",
+        "habilitação",
+        "idade mínima",
+        "clube náutico",
+        "escoteiro do mar"
+      ]
+    },
+    {
+      "id": "AA-282",
+      "category": "Navegação",
+      "prompt": "Segundo a RLESTA, a navegação realizada entre portos brasileiros e estrangeiros é:",
+      "choices": [
+        { "id": "A", "text": "loxodrômica" },
+        { "id": "B", "text": "costeira" },
+        { "id": "C", "text": "longo curso" },
+        { "id": "D", "text": "cabotagem" },
+        { "id": "E", "text": "ostodrômica" }
+      ],
+      "answer": "C",
+      "tags": [
+        "RLESTA",
+        "navegação",
+        "longo curso",
+        "portos estrangeiros",
+        "classificação"
+      ]
+    },
+    {
+      "id": "AA-283",
+      "category": "Penalidades",
+      "prompt": "A reincidência, para efeito de gradação das penalidades, da RLESTA, é:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "a repetição da prática da mesma infração em um período igual ou inferior a três meses"
+        },
+        {
+          "id": "B",
+          "text": "a repetição da prática da mesma infração em um período igual ou inferior a seis meses"
+        },
+        {
+          "id": "C",
+          "text": "a repetição da prática da mesma infração em um período igual ou inferior a vinte e quatro meses"
+        },
+        {
+          "id": "D",
+          "text": "a repetição da prática da mesma infração em um período igual ou inferior a doze meses"
+        },
+        {
+          "id": "E",
+          "text": "a repetição da prática da mesma infração em um período igual ou inferior a trinta e seis meses"
+        }
+      ],
+      "answer": "D",
+      "tags": ["reincidência", "RLESTA", "penalidade", "infração", "prazo"]
+    },
+    {
+      "id": "AA-284",
+      "category": "Penalidades",
+      "prompt": "Conduzir embarcação em estado de embriaguez ou após uso de substância entorpecente ou tóxica, quando não constituir crime previsto em lei, acarretará a suspensão do Certificado de Habilitação em até:",
+      "choices": [
+        { "id": "A", "text": "noventa dias" },
+        { "id": "B", "text": "trinta dias" },
+        { "id": "C", "text": "cento e vinte dias" },
+        { "id": "D", "text": "sessenta dias" },
+        { "id": "E", "text": "cento e oitenta dias" }
+      ],
+      "answer": "C",
+      "tags": ["embriaguez", "suspensão", "habilitação", "penalidade", "prazo"]
+    },
+    {
+      "id": "AA-285",
+      "category": "Documentação",
+      "prompt": "A vistoria que se realiza por ocasião da reclassificação da embarcação de esporte e/ou recreio da Navegação Interior para Mar Aberto, chama-se:",
+      "choices": [
+        { "id": "A", "text": "Vistoria Inicial" },
+        { "id": "B", "text": "Vistoria de Reclassificação" },
+        { "id": "C", "text": "Vistoria de Arqueação" },
+        { "id": "D", "text": "Vistoria de Renovação" },
+        { "id": "E", "text": "Vistoria de Rotina" }
+      ],
+      "answer": "B",
+      "tags": [
+        "vistoria",
+        "reclassificação",
+        "navegação interior",
+        "mar aberto",
+        "documentação"
+      ]
+    },
+    {
+      "id": "AA-286",
+      "category": "Segurança",
+      "prompt": "A NORMAM 03 define lotação como:",
+      "choices": [
+        { "id": "A", "text": "quantidade de pessoas efetivamente embarcadas" },
+        {
+          "id": "B",
+          "text": "quantidade máxima de pessoas autorizadas a embarcar, incluindo a tripulação, menos 10%"
+        },
+        {
+          "id": "C",
+          "text": "quantidade máxima de pessoas autorizadas a embarcar, incluindo a tripulação"
+        },
+        {
+          "id": "D",
+          "text": "quantidade máxima de pessoas autorizadas a embarcar, excluindo a tripulação"
+        },
+        {
+          "id": "E",
+          "text": "quantidade efetivamente embarcada, excluindo a tripulação"
+        }
+      ],
+      "answer": "C",
+      "tags": ["NORMAM-03", "lotação", "definição", "segurança", "tripulação"]
+    },
+    {
+      "id": "AA-287",
+      "category": "Documentação",
+      "prompt": "São obrigadas a registro no Tribunal Marítimo todas as embarcações com comprimento e peso igual ou superior a, respectivamente:",
+      "choices": [
+        { "id": "A", "text": "24 metros que possuam mais de 50 AB" },
+        { "id": "B", "text": "12 metros que possuam mais de 100 AB" },
+        { "id": "C", "text": "12 metros que possuam mais de 50 AB" },
+        { "id": "D", "text": "24 metros que possuam mais de 100 AB" },
+        { "id": "E", "text": "50 metros que possuam mais de 250 AB" }
+      ],
+      "answer": "D",
+      "tags": [
+        "registro",
+        "Tribunal Marítimo",
+        "embarcação",
+        "comprimento",
+        "arqueação bruta",
+        "documentação"
+      ]
+    },
+    {
+      "id": "AA-289",
+      "category": "Penalidades",
+      "prompt": "A reincidência em conduzir embarcação em estado de embriaguez ou após uso de substância entorpecente ou tóxica, quando não constituir crime previsto em lei acarreta:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Suspensão do Certificado de Habilitação por dois anos"
+        },
+        { "id": "B", "text": "Cancelamento do Certificado de Habilitação" },
+        {
+          "id": "C",
+          "text": "Suspensão do Certificado de Habilitação por um ano"
+        },
+        {
+          "id": "D",
+          "text": "Suspensão do Certificado de Habilitação por seis meses"
+        },
+        { "id": "E", "text": "Inquérito Administrativo de Fatos a Navegação" }
+      ],
+      "answer": "B",
+      "tags": [
+        "reincidência",
+        "embriaguez",
+        "cancelamento",
+        "habilitação",
+        "penalidade",
+        "crime"
+      ]
+    },
+    {
+      "id": "AA-290",
+      "category": "Documentação",
+      "prompt": "Toda embarcação deve ser escrita no (na):",
+      "choices": [
+        { "id": "A", "text": "Prefeitura local" },
+        { "id": "B", "text": "Tribunal Marítimo" },
+        { "id": "C", "text": "Diretoria de Portos e Costa (DPC)" },
+        { "id": "D", "text": "Receita Federal" },
+        { "id": "E", "text": "Capitania dos Portos ou órgãos subordinados" }
+      ],
+      "answer": "E",
+      "tags": [
+        "embarcação",
+        "inscrição",
+        "Capitania dos Portos",
+        "documentação"
+      ]
+    },
+    {
+      "id": "AA-291",
+      "category": "Penalidades",
+      "prompt": "As repetições na prática da mesma infração, implicará, em caso de pena de multa ou suspensão do Certificado de Habilitação, se o próprio artigo que a impuser não estabelecer outro procedimento, na (o):",
+      "choices": [
+        { "id": "A", "text": "abertura de processo civil indenizatório" },
+        { "id": "B", "text": "prisão do infrator" },
+        { "id": "C", "text": "cancelamento da inscrição da embarcação" },
+        {
+          "id": "D",
+          "text": "multiplicação da penalidade por dois, três e assim sucessivamente"
+        },
+        { "id": "E", "text": "cassação do Certificado de Habilitação" }
+      ],
+      "answer": "D",
+      "tags": [
+        "repetição",
+        "infração",
+        "multa",
+        "suspensão",
+        "habilitação",
+        "multiplicação",
+        "penalidade"
+      ]
+    },
+    {
+      "id": "AA-292",
+      "category": "Habilitação",
+      "prompt": "A NORMAM-03 define amador com:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "qualquer tripulante com habilitação certificada pela Autoridade Marítima para operar embarcações, em caráter não profissional"
+        },
+        {
+          "id": "B",
+          "text": "todo aquele com habilitação certificada pela Autoridade Marítima para operar embarcações, em caráter profissional"
+        },
+        {
+          "id": "C",
+          "text": "todo aquele com habilitação certificada, pela Autoridade Marítima para operar embarcações de esporte e/ou recreio, em caráter não profissional"
+        },
+        {
+          "id": "D",
+          "text": "todo aquele com habilitação certificada pela Autoridade Marítima para operar embarcações, em caráter não profissional"
+        },
+        {
+          "id": "E",
+          "text": "qualquer proprietário com habilitação certificada pela Autoridade Marítima para operar embarcações, em caráter não profissional"
+        }
+      ],
+      "answer": "C",
+      "tags": [
+        "NORMAM-03",
+        "amador",
+        "definição",
+        "habilitação",
+        "esporte e recreio",
+        "não profissional"
+      ]
+    },
+    {
+      "id": "AA-293",
+      "category": "Segurança",
+      "prompt": "Quem estabelece os requisitos para homologação de Estações de Manutenção de Equipamentos de Salvatagem é a:",
+      "choices": [
+        { "id": "A", "text": "Anvisa" },
+        { "id": "B", "text": "Receita Federal" },
+        { "id": "C", "text": "Tribunal Marítimo" },
+        { "id": "D", "text": "Polícia Federal" },
+        { "id": "E", "text": "Autoridade Marítima" }
+      ],
+      "answer": "E",
+      "tags": [
+        "homologação",
+        "equipamentos de salvatagem",
+        "Autoridade Marítima",
+        "segurança",
+        "requisitos"
+      ]
+    }
+  ]
+}
