@@ -1164,6 +1164,3419 @@
         "segurança",
         "requisitos"
       ]
+    },
+    {
+      "id": "AA-294",
+      "category": "Embarcações",
+      "prompt": "As motos aquáticas são definidas como embarcações do tipo:",
+      "choices": [
+        { "id": "A", "text": "Embarcação de Sobrevivência" },
+        { "id": "B", "text": "Embarcação Classificada" },
+        { "id": "C", "text": "Embarcação Miúda" },
+        { "id": "D", "text": "Embarcação de Grande Porte" },
+        { "id": "E", "text": "Embarcação de Médio Porte" }
+      ],
+      "answer": "C",
+      "tags": [
+        "motos aquáticas",
+        "embarcação miúda",
+        "classificação",
+        "definição"
+      ]
+    },
+    {
+      "id": "AA-295",
+      "category": "Habilitação",
+      "prompt": "Qual das Carteiras de Habilitação de Amadores (CHA) abaixo pode ser obtida por um cidadão (ã) com menos de 18 anos de idade:",
+      "choices": [
+        { "id": "A", "text": "Motonauta" },
+        { "id": "B", "text": "Capitão-Amador" },
+        { "id": "C", "text": "Veleiro" },
+        { "id": "D", "text": "Mestre-Amador" },
+        { "id": "E", "text": "Arrais-Amador" }
+      ],
+      "answer": "C",
+      "tags": [
+        "CHA",
+        "idade mínima",
+        "Veleiro",
+        "habilitação",
+        "menor de idade"
+      ]
+    },
+    {
+      "id": "AA-296",
+      "category": "Sinalização",
+      "prompt": "As boias que delimitam as laterais de um canal ou canais preferenciais têm as cores:",
+      "choices": [
+        { "id": "A", "text": "amarela e preta" },
+        { "id": "B", "text": "laranja e preta" },
+        { "id": "C", "text": "verde e amarela" },
+        { "id": "D", "text": "verde e encarnada" },
+        { "id": "E", "text": "verde e preta" }
+      ],
+      "answer": "D",
+      "tags": ["boias", "canal", "sinalização", "cores", "verde e encarnada"]
+    },
+    {
+      "id": "AA-297",
+      "category": "Segurança",
+      "prompt": "Os símbolos internacionais dos incêndios classe \"A\" e \"D\" são respectivamente:",
+      "choices": [
+        { "id": "A", "text": "um quadrado vermelho e um círculo azul" },
+        { "id": "B", "text": "um quadrado vermelho e uma estrela verde" },
+        { "id": "C", "text": "um triângulo verde e uma estrela amarela" },
+        { "id": "D", "text": "uma estrela verde e um triângulo amarelo" },
+        { "id": "E", "text": "um triângulo amarelo e uma estrela verde" }
+      ],
+      "answer": "C",
+      "tags": [
+        "incêndio",
+        "símbolos internacionais",
+        "classe A",
+        "classe D",
+        "triângulo verde",
+        "estrela amarela"
+      ]
+    },
+    {
+      "id": "AA-298",
+      "category": "Navegação",
+      "prompt": "O que são espias e para que servem:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "são cabos de aço ou ferro, que servem para prender as amarras às âncoras, em embarcações de esporte e recreio"
+        },
+        {
+          "id": "B",
+          "text": "são correntes de metal usadas para ligar à âncora"
+        },
+        {
+          "id": "C",
+          "text": "são cabos de amarração usados na faina (ação) de atracar uma embarcação"
+        },
+        {
+          "id": "D",
+          "text": "são retinidas, que servem para conduzir os cabos de amarração"
+        },
+        {
+          "id": "E",
+          "text": "são cabos de retinidas animal, vegetal ou sintética, que servem para prender a embarcação no fundo"
+        }
+      ],
+      "answer": "C",
+      "tags": ["espias", "amarração", "atracar", "cabos", "faina"]
+    },
+    {
+      "id": "AA-299",
+      "category": "Segurança",
+      "prompt": "O agente extintor CO2 tem como inconveniente o seguinte:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "não pode ser utilizado em incêndio classe \"C\""
+        },
+        {
+          "id": "B",
+          "text": "não pode ser utilizado em incêndio classe \"B\""
+        },
+        {
+          "id": "C",
+          "text": "não pode ser utilizado em incêndio classe \"A\""
+        },
+        { "id": "D", "text": "é utilizado em incêndio classe \"C\"" },
+        {
+          "id": "E",
+          "text": "pode asfixiar uma pessoa em ambiente não ventilado"
+        }
+      ],
+      "answer": "E",
+      "tags": [
+        "CO2",
+        "agente extintor",
+        "asfixia",
+        "ambiente não ventilado",
+        "inconveniente"
+      ]
+    },
+    {
+      "id": "AA-300",
+      "category": "Navegação",
+      "prompt": "Quando em mar ruim, para vencer as ondas grandes, deve-se acelerar e desacelerar o motor da seguinte forma:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "acelerar na subida e desacelerar antes da descida"
+        },
+        { "id": "B", "text": "não acelerar nem na subida e nem na descida" },
+        {
+          "id": "C",
+          "text": "desacelerar na subida e acelerar antes da descida"
+        },
+        {
+          "id": "D",
+          "text": "quando subir na onda acelera e continua acelerando na descida"
+        },
+        {
+          "id": "E",
+          "text": "manter a velocidade constante tanto na subida quanto na descida"
+        }
+      ],
+      "answer": "A",
+      "tags": ["mar ruim", "ondas", "aceleração", "desaceleração", "navegação"]
+    },
+    {
+      "id": "AA-301",
+      "category": "Primeiros Socorros",
+      "prompt": "No socorro de vítimas com queimaduras não se deve:",
+      "choices": [
+        { "id": "A", "text": "nenhuma das alternativas" },
+        { "id": "B", "text": "resfriar o local com água corrente" },
+        {
+          "id": "C",
+          "text": "colocar gaze úmida após o local ter resfriado e a dor ter diminuído"
+        },
+        { "id": "D", "text": "desgrudar o tecido da queimadura" },
+        { "id": "E", "text": "fazer um curativo com compressa limpa" }
+      ],
+      "answer": "D",
+      "tags": [
+        "queimaduras",
+        "primeiros socorros",
+        "desgrudar tecido",
+        "contraindicação"
+      ]
+    },
+    {
+      "id": "AA-302",
+      "category": "Penalidades",
+      "prompt": "Trafegar com embarcação em área reservada a banhistas ou exclusiva para determinado tipo de embarcação acarreta que tipo de punição?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Multa de R$ 40,00 a R$ 3.200,00 ou suspensão da CHA até 60 dias"
+        },
+        {
+          "id": "B",
+          "text": "Multa de R$ 40,00 a R$ 2.800,00 ou suspensão da CHA até 60 dias"
+        },
+        {
+          "id": "C",
+          "text": "Multa de R$ 40,00 a R$ 1.600,00 ou suspensão da CHA até 60 dias"
+        },
+        {
+          "id": "D",
+          "text": "Multa de R$ 40,00 a R$ 800,00 ou suspensão da CHA até 60 dias"
+        },
+        {
+          "id": "E",
+          "text": "Multa de R$ 40,00 a R$ 2.200,00 ou suspensão da CHA até 60 dias"
+        }
+      ],
+      "answer": "C",
+      "tags": ["área reservada", "banhistas", "multa", "suspensão", "CHA"]
+    },
+    {
+      "id": "AA-303",
+      "category": "Legislação",
+      "prompt": "Segundo a Lei Federal 9.537/97 (LESTA) no caso da pena de cancelamento de CHA, o infrator poderá requerer a sua habilitação, decorridos o prazo mínimo de:",
+      "choices": [
+        { "id": "A", "text": "2 anos" },
+        { "id": "B", "text": "3 anos" },
+        { "id": "C", "text": "6 meses" },
+        { "id": "D", "text": "90 dias" },
+        { "id": "E", "text": "12 meses" }
+      ],
+      "answer": "A",
+      "tags": ["LESTA", "cancelamento", "CHA", "prazo mínimo", "2 anos"]
+    },
+    {
+      "id": "AA-304",
+      "category": "Legislação",
+      "prompt": "Estão obrigadas a registro no Tribunal Marítimo todas as embarcações:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "com comprimento igual a 24 metros, que possuam mais de 50 AB"
+        },
+        { "id": "B", "text": "de médio porte, com menos de 100 AB" },
+        {
+          "id": "C",
+          "text": "com comprimento maior ou igual a 12 metros, que possuam mais de 20 AB"
+        },
+        { "id": "D", "text": "de médio porte, com amis de 50 AB" },
+        {
+          "id": "E",
+          "text": "com comprimento maior ou igual a 24 metros, que possuam mais de 100 AB"
+        }
+      ],
+      "answer": "E",
+      "tags": [
+        "Tribunal Marítimo",
+        "registro",
+        "24 metros",
+        "100 AB",
+        "obrigatoriedade"
+      ]
+    },
+    {
+      "id": "AA-305",
+      "category": "Primeiros Socorros",
+      "prompt": "Para estancarmos uma hemorragia devemos:",
+      "choices": [
+        { "id": "A", "text": "abaixar a parte do corpo ferida" },
+        { "id": "B", "text": "cobri-la com panos limpos" },
+        { "id": "C", "text": "preparar uma tala" },
+        { "id": "D", "text": "pressionar o local com um pano grosso" },
+        { "id": "E", "text": "colocar água morna sobre o ferimento" }
+      ],
+      "answer": "D",
+      "tags": [
+        "hemorragia",
+        "estancar",
+        "pressão",
+        "pano grosso",
+        "primeiros socorros"
+      ]
+    },
+    {
+      "id": "AA-306",
+      "category": "Legislação",
+      "prompt": "Uma infração cometida nas áreas adjacentes às praias poderá ter pena de multa aplicada pelo (a):",
+      "choices": [
+        { "id": "A", "text": "Polícia Militar" },
+        { "id": "B", "text": "Órgãos estaduais" },
+        { "id": "C", "text": "Corpo de Bombeiros" },
+        { "id": "D", "text": "Polícia Federal" },
+        { "id": "E", "text": "Órgãos Municipais" }
+      ],
+      "answer": "E",
+      "tags": [
+        "infração",
+        "áreas adjacentes",
+        "praias",
+        "multa",
+        "Órgãos Municipais"
+      ]
+    },
+    {
+      "id": "AA-307",
+      "category": "Primeiros Socorros",
+      "prompt": "Em caso de hipotermia, após aplicarmos os primeiros socorros, devemos deixar o paciente em posição de restabelecimento que será:",
+      "choices": [
+        { "id": "A", "text": "deixar a vítima deitada em decúbito dorsal" },
+        {
+          "id": "B",
+          "text": "deixar a vítima sentada e com a cabeça ereta e bem mais alta que o resto do corpo"
+        },
+        {
+          "id": "C",
+          "text": "deixar a vítima deitada em decúbito ventral, levemente inclinada para o lado"
+        },
+        {
+          "id": "D",
+          "text": "colocar a vítima deitada de lado e com a cabeça mais baixa que o corpo"
+        },
+        {
+          "id": "E",
+          "text": "deixar a vítima à vontade para que ela encontre, por si, a posição mais confortável"
+        }
+      ],
+      "answer": "C",
+      "tags": [
+        "hipotermia",
+        "posição",
+        "decúbito ventral",
+        "inclinada",
+        "primeiros socorros"
+      ]
+    },
+    {
+      "id": "AA-308",
+      "category": "Navegação",
+      "prompt": "Para arrancar uma âncora devemos posicionar nosso barco exatamente sobre a âncora e arrancá-la quando a amarra estivar no sentido vertical. Este ato de arrancar a âncora do fundo é chamado de:",
+      "choices": [
+        { "id": "A", "text": "suspender" },
+        { "id": "B", "text": "desenterrar" },
+        { "id": "C", "text": "largar" },
+        { "id": "D", "text": "desatracar" },
+        { "id": "E", "text": "abicar" }
+      ],
+      "answer": "A",
+      "tags": ["âncora", "suspender", "amarra", "vertical", "navegação"]
+    },
+    {
+      "id": "AA-309",
+      "category": "Sinalização",
+      "prompt": "A sinalização de águas seguras significa:",
+      "choices": [
+        { "id": "A", "text": "águas sem circulação" },
+        { "id": "B", "text": "águas policiadas" },
+        { "id": "C", "text": "águas limítrofes" },
+        { "id": "D", "text": "águas rasas" },
+        { "id": "E", "text": "águas navegáveis" }
+      ],
+      "answer": "E",
+      "tags": ["águas seguras", "sinalização", "águas navegáveis", "navegação"]
+    },
+    {
+      "id": "AA-310",
+      "category": "Legislação",
+      "prompt": "De acordo com a NORMAM-03/DPC, Inspeção Naval é definida como:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Atividade de cunho técnico que consiste na fiscalização do cumprimento da LESTA e RLESTA, e das normas e regulamentos dela decorrente"
+        },
+        {
+          "id": "B",
+          "text": "Ação administrativa, eventual ou periódica, pela qual é verificado o cumprimento de requisitos estabelecidos somente em normas nacionais, referente à prevenção da poluição ambiental e às condições de segurança e habitabilidade de embarcações"
+        },
+        {
+          "id": "C",
+          "text": "Ação técnica-administrativa, eventual ou periódica, pela qual é verificado o cumprimento de requisitos estabelecidos somente em normas nacionais, referente à prevenção da poluição ambiental e às condições de segurança e habitabilidade de embarcações"
+        },
+        {
+          "id": "D",
+          "text": "Atividade de cunho administrativo que consiste na fiscalização do cumprimento da LESTA e RLESTA, e das normas e regulamentos dela decorrente"
+        },
+        {
+          "id": "E",
+          "text": "Ação técnica-administrativa, eventual ou periódica, pela qual é verificado o cumprimento de requisitos estabelecidos somente em normas internacionais, referente à prevenção da poluição ambiental e às condições de segurança e habitabilidade de embarcações"
+        }
+      ],
+      "answer": "D",
+      "tags": [
+        "NORMAM-03",
+        "Inspeção Naval",
+        "administrativo",
+        "LESTA",
+        "RLESTA",
+        "fiscalização"
+      ]
+    },
+    {
+      "id": "AA-311",
+      "category": "Sinalização",
+      "prompt": "Quando um navegante vem se aproximando de uma bifurcação de canal e se depara com um balizamento de duas cores, e verifica que a maior profundidade está no canal a seu boreste, quais seriam as duas cores vistas pelo navegante:",
+      "choices": [
+        { "id": "A", "text": "preta e encarnada" },
+        { "id": "B", "text": "encarnada, com uma faixa horizontal verde" },
+        { "id": "C", "text": "verde, com uma faixa horizontal encarnada" },
+        { "id": "D", "text": "encarnada, com uma faixa horizontal amarela" },
+        { "id": "E", "text": "preta e amarela" }
+      ],
+      "answer": "C",
+      "tags": [
+        "bifurcação",
+        "canal",
+        "balizamento",
+        "boreste",
+        "verde",
+        "faixa encarnada"
+      ]
+    },
+    {
+      "id": "AA-312",
+      "category": "Sinalização",
+      "prompt": "No balizamento de uma hidrovia um sinal \"X\" na margem do rio, significa:",
+      "choices": [
+        { "id": "A", "text": "seguir meio do canal" },
+        { "id": "B", "text": "seguir margem" },
+        { "id": "C", "text": "trocar de margem" },
+        { "id": "D", "text": "bifurcação de canal" },
+        { "id": "E", "text": "perigo isolado" }
+      ],
+      "answer": "C",
+      "tags": ["hidrovia", "sinal X", "trocar margem", "balizamento"]
+    },
+    {
+      "id": "AA-313",
+      "category": "Primeiros Socorros",
+      "prompt": "O que vem a ser hemorragia:",
+      "choices": [
+        { "id": "A", "text": "o aparecimento de bolhas" },
+        { "id": "B", "text": "a grande perda de sangue" },
+        { "id": "C", "text": "a queda da pressão arterial" },
+        { "id": "D", "text": "a ruptura da pele" },
+        { "id": "E", "text": "o desmaio temporário" }
+      ],
+      "answer": "B",
+      "tags": [
+        "hemorragia",
+        "perda de sangue",
+        "definição",
+        "primeiros socorros"
+      ]
+    },
+    {
+      "id": "AA-314",
+      "category": "Sobrevivência",
+      "prompt": "A sobrevivência do náufrago depende do período de permanência na água em função da (s):",
+      "choices": [
+        { "id": "A", "text": "temperatura da água do mar" },
+        { "id": "B", "text": "correntes marinhas" },
+        { "id": "C", "text": "quantidade de água" },
+        { "id": "D", "text": "distância de terra" },
+        { "id": "E", "text": "exposição aos raios solares" }
+      ],
+      "answer": "A",
+      "tags": [
+        "náufrago",
+        "sobrevivência",
+        "temperatura da água",
+        "permanência na água"
+      ]
+    },
+    {
+      "id": "AA-315",
+      "category": "Navegação",
+      "prompt": "De acordo com Regulamento Internacional para Evitar Abalroamento no Mar (RIPEAM), em uma situação de risco de abalroamento, a embarcação que não tenha a obrigação de manobrar, é chamada de embarcação:",
+      "choices": [
+        { "id": "A", "text": "manobradora" },
+        { "id": "B", "text": "que tem preferência" },
+        { "id": "C", "text": "alcançada" },
+        { "id": "D", "text": "obrigada a manobrar" },
+        { "id": "E", "text": "sem preferência" }
+      ],
+      "answer": "B",
+      "tags": [
+        "RIPEAM",
+        "abalroamento",
+        "preferência",
+        "manobrar",
+        "embarcação"
+      ]
+    },
+    {
+      "id": "AA-316",
+      "category": "Primeiros Socorros",
+      "prompt": "Nos casos de ingestão de substâncias corrosivas, cáusticos em geral e derivados de petróleo, diluir ou neutralizar essas substâncias pela ingestão de:",
+      "choices": [
+        { "id": "A", "text": "azeite" },
+        { "id": "B", "text": "xarope de ipeca" },
+        { "id": "C", "text": "água ou leite" },
+        { "id": "D", "text": "chá preto ou café" },
+        { "id": "E", "text": "xarope de boldo" }
+      ],
+      "answer": "C",
+      "tags": [
+        "substâncias corrosivas",
+        "cáusticos",
+        "derivados de petróleo",
+        "água",
+        "leite",
+        "diluir"
+      ]
+    },
+    {
+      "id": "AA-317",
+      "category": "Segurança",
+      "prompt": "Os incêndios das classes \"A\" e \"B\" são identificados por símbolos internacionais, que são respectivamente:",
+      "choices": [
+        { "id": "A", "text": "um quadrado vermelho e um círculo azul" },
+        { "id": "B", "text": "um quadrado vermelho e uma estrela verde" },
+        { "id": "C", "text": "um triângulo verde e uma estrela amarela" },
+        { "id": "D", "text": "uma estrela verde e um triângulo amarelo" },
+        { "id": "E", "text": "um triângulo verde e um quadrado vermelho" }
+      ],
+      "answer": "E",
+      "tags": [
+        "incêndio",
+        "classe A",
+        "classe B",
+        "símbolos",
+        "triângulo verde",
+        "quadrado vermelho"
+      ]
+    },
+    {
+      "id": "AA-318",
+      "category": "Navegação",
+      "prompt": "A condição de equilíbrio de uma embarcação, com sua carga de peso sólidos e líquidos bem distribuídos e sua linha d'água respeitada é chamada de:",
+      "choices": [
+        { "id": "A", "text": "estanqueidade" },
+        { "id": "B", "text": "flutuabilidade" },
+        { "id": "C", "text": "estabilidade" },
+        { "id": "D", "text": "deslocamento" },
+        { "id": "E", "text": "arqueação" }
+      ],
+      "answer": "C",
+      "tags": [
+        "estabilidade",
+        "equilíbrio",
+        "carga",
+        "linha d'água",
+        "embarcação"
+      ]
+    },
+    {
+      "id": "AA-319",
+      "category": "Sobrevivência",
+      "prompt": "Sobreviventes de naufrágios durante a Segunda Guerra Mundial apontam o óleo flutuante como origem das maiores dificuldades para o salvamento. Para evitar todos os inconvenientes causados por ele como: elevado risco de sufocação pela irritação das vias respiratórias; e até mesmo de cegueira pela violenta ardência nos olhos, deveremos:",
+      "choices": [
+        { "id": "A", "text": "mergulhar a sota vento" },
+        { "id": "B", "text": "boiar e deixar a correnteza nos levar" },
+        { "id": "C", "text": "nadar por baixo da água até sair fora do óleo" },
+        { "id": "D", "text": "nadar na direção do vento" },
+        { "id": "E", "text": "mergulhar sobre a mancha de óleo" }
+      ],
+      "answer": "C",
+      "tags": [
+        "óleo flutuante",
+        "naufrágio",
+        "sobrevivência",
+        "nadar por baixo",
+        "sufocação"
+      ]
+    },
+    {
+      "id": "AA-320",
+      "category": "Equipamentos",
+      "prompt": "O dispositivo de iluminação das balsas, quando houver, é alimentado por:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "pilhas alcalinas constantes do material de salvatagem"
+        },
+        {
+          "id": "B",
+          "text": "bateria ativada automaticamente pela água salgada"
+        },
+        {
+          "id": "C",
+          "text": "bateria de níquel cádmio constante do material de salvatagem"
+        },
+        {
+          "id": "D",
+          "text": "lanternas de antepara existentes no interior da balsa"
+        },
+        {
+          "id": "E",
+          "text": "pilhas de níquel cádmio constantes do material de salvatagem"
+        }
+      ],
+      "answer": "B",
+      "tags": [
+        "balsas",
+        "iluminação",
+        "bateria",
+        "água salgada",
+        "ativação automática"
+      ]
+    },
+    {
+      "id": "AA-321",
+      "category": "Legislação",
+      "prompt": "Segundo o artigo 4º da Lei de Segurança do Tráfego Aquaviário (LESTA), a autoridade marítima tem poderes para criar normas complementares para regulamentar diversos aspectos da navegação. Estas Normas da Autoridade Marítima são chamadas de:",
+      "choices": [
+        { "id": "A", "text": "NORTEC" },
+        { "id": "B", "text": "RTM" },
+        { "id": "C", "text": "NORMAM" },
+        { "id": "D", "text": "NPCP" },
+        { "id": "E", "text": "NORIP" }
+      ],
+      "answer": "C",
+      "tags": [
+        "LESTA",
+        "autoridade marítima",
+        "normas",
+        "NORMAM",
+        "regulamentação"
+      ]
+    },
+    {
+      "id": "AA-322",
+      "category": "Sinalização",
+      "prompt": "Numa hidrovia interior você se depara com uma placa branca contendo a letra \"H\" na cor vermelha. Ela que lhe indicar que você deve:",
+      "choices": [
+        { "id": "A", "text": "trocar de margem" },
+        { "id": "B", "text": "seguir pela margem esquerda da hidrovia" },
+        { "id": "C", "text": "seguir pelo centro da hidrovia" },
+        { "id": "D", "text": "cruzar obliquamente" },
+        { "id": "E", "text": "seguir a margem direita" }
+      ],
+      "answer": "C",
+      "tags": ["hidrovia", "placa H", "vermelha", "centro", "sinalização"]
+    },
+    {
+      "id": "AA-323",
+      "category": "Sinalização",
+      "prompt": "Uma estrutura fixa com aspecto definido, provida essencialmente de um equipamento luminoso que exiba luz de ritmo e cor determinados, cujo alcance luminoso seja superior a dez (10) milhas náuticas é chamada de:",
+      "choices": [
+        { "id": "A", "text": "farol" },
+        { "id": "B", "text": "farolete" },
+        { "id": "C", "text": "boia luminosa" },
+        { "id": "D", "text": "boia de sinalização" },
+        { "id": "E", "text": "baliza" }
+      ],
+      "answer": "A",
+      "tags": [
+        "farol",
+        "estrutura fixa",
+        "equipamento luminoso",
+        "10 milhas náuticas",
+        "sinalização"
+      ]
+    },
+    {
+      "id": "AA-324",
+      "category": "Sinalização",
+      "prompt": "Em todos os portos brasileiros, ao entrar no porto com sua embarcação, vindo do mar aberto você deverá deixar por boreste de seu barco as boias, laterais de cor:",
+      "choices": [
+        { "id": "A", "text": "verde e encarnada" },
+        { "id": "B", "text": "amarela" },
+        { "id": "C", "text": "branca" },
+        { "id": "D", "text": "verde" },
+        { "id": "E", "text": "encarnada" }
+      ],
+      "answer": "E",
+      "tags": [
+        "portos brasileiros",
+        "boreste",
+        "boias laterais",
+        "encarnada",
+        "entrada no porto"
+      ]
+    },
+    {
+      "id": "AA-325",
+      "category": "Navegação",
+      "prompt": "O ato de parar a embarcação prendendo-a a uma âncora que será fixada ao fundo é chamado de:",
+      "choices": [
+        { "id": "A", "text": "Suspender" },
+        { "id": "B", "text": "Fundear" },
+        { "id": "C", "text": "Aduchar" },
+        { "id": "D", "text": "Abicar" },
+        { "id": "E", "text": "Atracar" }
+      ],
+      "answer": "B",
+      "tags": ["fundear", "âncora", "fundo", "parar embarcação", "navegação"]
+    },
+    {
+      "id": "AA-326",
+      "category": "Meteorologia",
+      "prompt": "Os ventos sopram de um centro de alta pressão para um centro de baixa pressão, mas não de forma direta, mas de forma curva, em virtude do movimento de rotação da terra. A esse fenômeno chamamos de:",
+      "choices": [
+        { "id": "A", "text": "Escala Beaufort" },
+        { "id": "B", "text": "Ciclone" },
+        { "id": "C", "text": "Furação" },
+        { "id": "D", "text": "Força centrifuga dos ventos" },
+        { "id": "E", "text": "Força de Coriolis" }
+      ],
+      "answer": "E",
+      "tags": [
+        "Força de Coriolis",
+        "ventos",
+        "alta pressão",
+        "baixa pressão",
+        "rotação da terra",
+        "meteorologia"
+      ]
+    },
+    {
+      "id": "AA-327",
+      "category": "Navegação",
+      "prompt": "Com corrente de proa a desatracação fica mais fácil:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "folgando-se todos os cabos, largando-se a embarcação ao efeito da corrente"
+        },
+        {
+          "id": "B",
+          "text": "folgando-se primeiro os cabos de ré, mantendo-se os cabos de vante apertados"
+        },
+        {
+          "id": "C",
+          "text": "folgando-se todos os cabos, largando-se a embarcação ao efeito do vento e da corrente"
+        },
+        {
+          "id": "D",
+          "text": "folgando-se primeiro os cabos de vante, mantendo-se os cabos de ré apertados"
+        },
+        {
+          "id": "E",
+          "text": "esperando-se o efeito da corrente cessar, para dar inicio a manobra da embarcação"
+        }
+      ],
+      "answer": "D",
+      "tags": [
+        "desatracação",
+        "corrente de proa",
+        "cabos de vante",
+        "cabos de ré",
+        "manobra"
+      ]
+    },
+    {
+      "id": "AA-328",
+      "category": "Sobrevivência",
+      "prompt": "Para sobrevivência de um náufrago é mais importante:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "seu estado psicológico do que a eficiência do equipamento que possui"
+        },
+        { "id": "B", "text": "a temperatura da água do mar" },
+        { "id": "C", "text": "a exposição aos raios do sol" },
+        { "id": "D", "text": "a eficiência do equipamento que possui" },
+        { "id": "E", "text": "a distância de terra" }
+      ],
+      "answer": "A",
+      "tags": [
+        "náufrago",
+        "sobrevivência",
+        "estado psicológico",
+        "equipamento",
+        "importância"
+      ]
+    },
+    {
+      "id": "AA-329",
+      "category": "Navegação",
+      "prompt": "O sistema Russo de navegação por satélite, chama-se:",
+      "choices": [
+        { "id": "A", "text": "WGS" },
+        { "id": "B", "text": "GLONASS" },
+        { "id": "C", "text": "COPAS" },
+        { "id": "D", "text": "DGPS" },
+        { "id": "E", "text": "NAVSTAR" }
+      ],
+      "answer": "B",
+      "tags": ["GLONASS", "sistema russo", "navegação por satélite", "GPS"]
+    },
+    {
+      "id": "AA-330",
+      "category": "Sobrevivência",
+      "prompt": "Em um naufrágio, a fadiga e o esgotamento resultantes de grandes privações muitas vezes conduzem a distúrbios mentais que podem tomar forma de extenso nervosismo, atividade excessiva e violenta ou de estafa. O melhor meio de evitá-los é:",
+      "choices": [
+        { "id": "A", "text": "nadar uma vez por dia" },
+        { "id": "B", "text": "manter-se ocupado com tarefas da balsa" },
+        { "id": "C", "text": "procurar dormir e descansar o máximo possível" },
+        { "id": "D", "text": "pescar" },
+        { "id": "E", "text": "realizar exercícios físicos" }
+      ],
+      "answer": "C",
+      "tags": [
+        "naufrágio",
+        "fadiga",
+        "esgotamento",
+        "distúrbios mentais",
+        "descanso",
+        "dormir"
+      ]
+    },
+    {
+      "id": "AA-331",
+      "category": "Documentação",
+      "prompt": "Quando eu navego, devo ter a bordo de meu barco, além do Título de Inscrição, também os (as):",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Provisão de Registro de Propriedade Marítima (PRPM), Bilhete de Seguro (DPEM) e Carteira de identidade"
+        },
+        {
+          "id": "B",
+          "text": "Bilhete de Seguro (DPEM) e Carteira de Identidade"
+        },
+        { "id": "C", "text": "Carteira de Identidade" },
+        {
+          "id": "D",
+          "text": "Carteira de Habilitação de Amador (CHA, Carteira de Identidade (RG) e Bilhete de Seguro (DPEM)"
+        },
+        {
+          "id": "E",
+          "text": "Notas de Arqueação, Nota Fiscal do casco e Nota Fiscal do motor"
+        }
+      ],
+      "answer": "D",
+      "tags": [
+        "documentação",
+        "CHA",
+        "RG",
+        "DPEM",
+        "Título de Inscrição",
+        "bordo"
+      ]
+    },
+    {
+      "id": "AA-332",
+      "category": "Navegação",
+      "prompt": "Quando numa embarcação de dois hélices, um deles dá a ré e o outro adiante, com a mesma rotação, essa embarcação:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "tende a girar a proa para o bordo contrário ao do hélice que dá atrás"
+        },
+        {
+          "id": "B",
+          "text": "tende a girar a proa para o mesmo bordo do hélice que dá a ré"
+        },
+        { "id": "C", "text": "tende a seguir em linha reta para ré" },
+        {
+          "id": "D",
+          "text": "tende a girar a proa para o mesmo bordo do hélice que dá adiante"
+        },
+        { "id": "E", "text": "tende a seguir em linha reta para vante" }
+      ],
+      "answer": "B",
+      "tags": ["dois hélices", "rotação", "proa", "bordo", "manobra"]
+    },
+    {
+      "id": "AA-333",
+      "category": "Sinalização",
+      "prompt": "Dois apitos curtos significam:",
+      "choices": [
+        { "id": "A", "text": "embarcação em visibilidade restrita" },
+        { "id": "B", "text": "embarcação fundeada em visibilidade restrita" },
+        { "id": "C", "text": "estou guinando para bombordo" },
+        { "id": "D", "text": "estou dando máquinas atrás" },
+        { "id": "E", "text": "estou guinando para boreste" }
+      ],
+      "answer": "C",
+      "tags": [
+        "sinais sonoros",
+        "dois apitos curtos",
+        "guinando",
+        "bombordo",
+        "comunicação"
+      ]
+    },
+    {
+      "id": "AA-334",
+      "category": "Sinalização",
+      "prompt": "Um apito curto significa:",
+      "choices": [
+        { "id": "A", "text": "estou parando máquinas" },
+        { "id": "B", "text": "estou guinando para boreste" },
+        { "id": "C", "text": "estou guinando para bombordo" },
+        { "id": "D", "text": "estou dando máquinas atrás" },
+        { "id": "E", "text": "estou dando máquinas adiante" }
+      ],
+      "answer": "B",
+      "tags": ["apito curto", "guinando", "boreste", "sinais sonoros"]
+    },
+    {
+      "id": "AA-335",
+      "category": "Navegação",
+      "prompt": "O termo \"em movimento\" se aplica a todas as embarcações que:",
+      "choices": [
+        { "id": "A", "text": "estão encalhadas" },
+        { "id": "B", "text": "estão fundeadas" },
+        { "id": "C", "text": "estão atracadas" },
+        {
+          "id": "D",
+          "text": "não se encontram fundeadas, amarradas à terra ou encalhadas"
+        },
+        { "id": "E", "text": "estão amarradas" }
+      ],
+      "answer": "D",
+      "tags": [
+        "em movimento",
+        "embarcações",
+        "fundeada",
+        "atracada",
+        "encalhada"
+      ]
+    },
+    {
+      "id": "AA-336",
+      "category": "Sinalização",
+      "prompt": "Uma embarcação exibindo três esferas dispostas em linha vertical, estará:",
+      "choices": [
+        { "id": "A", "text": "encalhada" },
+        { "id": "B", "text": "sem governo" },
+        { "id": "C", "text": "fundeada" },
+        { "id": "D", "text": "atracada" },
+        { "id": "E", "text": "com capacidade de manobra restrita" }
+      ],
+      "answer": "A",
+      "tags": ["três esferas", "linha vertical", "encalhada", "sinalização"]
+    },
+    {
+      "id": "AA-337",
+      "category": "Sinalização",
+      "prompt": "Se durante o dia eu avistar uma embarcação com um balão preto no mastro, ela estará:",
+      "choices": [
+        { "id": "A", "text": "encalhada" },
+        { "id": "B", "text": "sem governo" },
+        { "id": "C", "text": "fundeada" },
+        { "id": "D", "text": "atracada" },
+        { "id": "E", "text": "a matroca" }
+      ],
+      "answer": "C",
+      "tags": ["balão preto", "mastro", "fundeada", "sinalização diurna"]
+    },
+    {
+      "id": "AA-338",
+      "category": "Sinalização",
+      "prompt": "Uma embarcação navegando à vela, quando também usando sua propulsão mecânica, deve exibir a vante, onde melhor possa ser visto:",
+      "choices": [
+        { "id": "A", "text": "uma marca em forma de cubo" },
+        {
+          "id": "B",
+          "text": "uma marca em forma de cone, com vértice para cima"
+        },
+        { "id": "C", "text": "uma marca em forma de losango" },
+        {
+          "id": "D",
+          "text": "uma marca em forma de cone, com vértice para baixo"
+        },
+        { "id": "E", "text": "uma marca em forma de esfera" }
+      ],
+      "answer": "D",
+      "tags": [
+        "vela",
+        "propulsão mecânica",
+        "cone",
+        "vértice para baixo",
+        "sinalização"
+      ]
+    },
+    {
+      "id": "AA-339",
+      "category": "Sinalização",
+      "prompt": "A boia cega:",
+      "choices": [
+        { "id": "A", "text": "emite luzes brancas" },
+        { "id": "B", "text": "emite luzes amarelas" },
+        { "id": "C", "text": "emite luzes intermitentes" },
+        { "id": "D", "text": "não emite luzes" },
+        { "id": "E", "text": "emitem luzes encarnadas" }
+      ],
+      "answer": "D",
+      "tags": ["boia cega", "luzes", "sinalização"]
+    },
+    {
+      "id": "AA-340",
+      "category": "Sinalização",
+      "prompt": "Na sinalização fluvial, entende-se por margem esquerda a margem:",
+      "choices": [
+        { "id": "A", "text": "situada a bombordo da embarcação" },
+        { "id": "B", "text": "situada do lado direito do fluxo da corrente" },
+        { "id": "C", "text": "situada do lado esquerdo de quem sobe o rio" },
+        { "id": "D", "text": "situada do lado esquerdo de quem desce o rio" },
+        { "id": "E", "text": "situada a boreste da embarcação" }
+      ],
+      "answer": "D",
+      "tags": ["sinalização fluvial", "margem esquerda", "quem desce o rio"]
+    },
+    {
+      "id": "AA-341",
+      "category": "Sinalização",
+      "prompt": "A marca de tope do sinal de sinal especial é:",
+      "choices": [
+        { "id": "A", "text": "um \"E\" amarelo" },
+        { "id": "B", "text": "um \"X\" encarnado" },
+        { "id": "C", "text": "um \"X\" amarelo" },
+        { "id": "D", "text": "um \"X\" verde" },
+        { "id": "E", "text": "um \"E\" preto" }
+      ],
+      "answer": "C",
+      "tags": ["marca de tope", "sinal especial", "X amarelo"]
+    },
+    {
+      "id": "AA-342",
+      "category": "Navegação",
+      "prompt": "O que são espias e para que servem:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "são cabos de aço ou ferro, que servem para prender as amarras às âncoras, em embarcações de esporte e recreio"
+        },
+        {
+          "id": "B",
+          "text": "são correntes de metal usadas para ligar à âncora"
+        },
+        {
+          "id": "C",
+          "text": "são cabos de amarração usados na faina de atracar uma embarcação"
+        },
+        {
+          "id": "D",
+          "text": "são retinidas, que servem para conduzir os cabos de amarração"
+        },
+        {
+          "id": "E",
+          "text": "são cabos de retinidas animal, vegetal ou sintética, que servem para prender a embarcação no fundo"
+        }
+      ],
+      "answer": "C",
+      "tags": ["espias", "amarração", "atracar", "cabos", "faina"]
+    },
+    {
+      "id": "AA-343",
+      "category": "Navegação",
+      "prompt": "Para desatracar a embarcação devemos, como regra geral:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "largar os cabos de vante e abrir a proa dando máquinas adiante"
+        },
+        {
+          "id": "B",
+          "text": "largar todos os cabos e dar máquinas adiante toda força, para sair rapidamente do cais"
+        },
+        {
+          "id": "C",
+          "text": "largar os cabos de ré, procurando utilizar os cabos de vante para abrir a popa com máquina adiante toda força"
+        },
+        {
+          "id": "D",
+          "text": "largar os cabos de ré, procurando manobrar para abrir a popa, aproveitar o efeito do leme para afastar a popa e então largar os cabos de vante"
+        },
+        {
+          "id": "E",
+          "text": "largar os cabos de vante a abrir a proa dando máquinas atrás"
+        }
+      ],
+      "answer": "D",
+      "tags": ["desatracar", "cabos de ré", "cabos de vante", "popa", "leme"]
+    },
+    {
+      "id": "AA-344",
+      "category": "Navegação",
+      "prompt": "Uma embarcação com um hélice apenas, com rotação no sentido anti-horário, com leme a meio, e em movimento para vante tende a guinar para:",
+      "choices": [
+        { "id": "A", "text": "boreste muito lentamente" },
+        { "id": "B", "text": "bombordo muito rapidamente" },
+        { "id": "C", "text": "bombordo lentamente" },
+        { "id": "D", "text": "boreste lentamente" },
+        { "id": "E", "text": "boreste rapidamente" }
+      ],
+      "answer": "D",
+      "tags": ["hélice", "anti-horário", "leme", "guinar", "boreste"]
+    },
+    {
+      "id": "AA-345",
+      "category": "Navegação",
+      "prompt": "Se eu avistar uma outra embarcação e tiver certeza de que está havendo risco de abalroamento, a seguinte situação está sendo apresentada:",
+      "choices": [
+        { "id": "A", "text": "marcação variando e distância diminuindo" },
+        { "id": "B", "text": "marcação constante e distância aumentando" },
+        { "id": "C", "text": "marcação constante e distância diminuindo" },
+        { "id": "D", "text": "marcação variando e distância constante" },
+        { "id": "E", "text": "marcação variando e distância aumentando" }
+      ],
+      "answer": "C",
+      "tags": [
+        "abalroamento",
+        "marcação constante",
+        "distância diminuindo",
+        "risco"
+      ]
+    },
+    {
+      "id": "AA-346",
+      "category": "Segurança",
+      "prompt": "Os incêndios que envolvem materiais fibrosos ou sólidos que deixam como resíduos brasas ou cinzas são denominados:",
+      "choices": [
+        { "id": "A", "text": "Incêndio classe \"B\"" },
+        { "id": "B", "text": "Incêndio classe \"A\"" },
+        { "id": "C", "text": "Incêndio classe \"C\"" },
+        { "id": "D", "text": "Incêndio classe \"D\"" },
+        { "id": "E", "text": "Incêndio classe \"R\"" }
+      ],
+      "answer": "B",
+      "tags": [
+        "incêndio",
+        "classe A",
+        "materiais fibrosos",
+        "sólidos",
+        "brasas"
+      ]
+    },
+    {
+      "id": "AA-347",
+      "category": "Segurança",
+      "prompt": "É comum se ter incêndios a bordo decorrente de material elétrico mal especificado como:",
+      "choices": [
+        { "id": "A", "text": "cabos elétricos antichama" },
+        { "id": "B", "text": "disjuntores bem dimensionados" },
+        { "id": "C", "text": "disjuntores com dupla finalidade" },
+        { "id": "D", "text": "disjuntores antichama" },
+        { "id": "E", "text": "disjuntores que provocam grandes centelhas" }
+      ],
+      "answer": "E",
+      "tags": ["incêndio", "material elétrico", "disjuntores", "centelhas"]
+    },
+    {
+      "id": "AA-348",
+      "category": "Primeiros Socorros",
+      "prompt": "A condição na qual o corpo humano perde calor mais rapidamente do que pode ser produzido chama-se:",
+      "choices": [
+        { "id": "A", "text": "hemorragia" },
+        { "id": "B", "text": "choque" },
+        { "id": "C", "text": "hiperglicemia" },
+        { "id": "D", "text": "insolação" },
+        { "id": "E", "text": "hipotermia" }
+      ],
+      "answer": "E",
+      "tags": [
+        "hipotermia",
+        "perda de calor",
+        "corpo humano",
+        "primeiros socorros"
+      ]
+    },
+    {
+      "id": "AA-349",
+      "category": "Sobrevivência",
+      "prompt": "Sobreviventes de naufrágios durante a Segunda Guerra Mundial apontam o óleo flutuante como origem das maiores dificuldades para o salvamento. Para evitar todos os inconvenientes causados por ele como: elevado risco de sufocação pela irritação das vias respiratórias; e até mesmo de cegueira pela violenta ardência nos olhos, deveremos:",
+      "choices": [
+        { "id": "A", "text": "mergulhar a sota vento" },
+        { "id": "B", "text": "boiar e deixar a correnteza nos levar" },
+        { "id": "C", "text": "nadar por baixo da água até sair fora do óleo" },
+        { "id": "D", "text": "nadar na direção do vento" },
+        { "id": "E", "text": "mergulhar sobre a mancha de óleo" }
+      ],
+      "answer": "C",
+      "tags": [
+        "óleo flutuante",
+        "naufrágio",
+        "sobrevivência",
+        "nadar por baixo",
+        "sufocação"
+      ]
+    },
+    {
+      "id": "AA-350",
+      "category": "Navegação",
+      "prompt": "Nunca devemos:",
+      "choices": [
+        { "id": "A", "text": "retirar pesos altos da embarcação" },
+        {
+          "id": "B",
+          "text": "colocar mais peso na parte de baixo que na parte de cima da embarcação"
+        },
+        { "id": "C", "text": "afundar a marca do limite mínimo de flutuação" },
+        {
+          "id": "D",
+          "text": "dividir os pesos entre as laterais da embarcação"
+        },
+        { "id": "E", "text": "colocar pesos pequenos, no convés principal" }
+      ],
+      "answer": "C",
+      "tags": ["pesos", "limite mínimo", "flutuação", "afundar", "navegação"]
+    },
+    {
+      "id": "AA-351",
+      "category": "Segurança",
+      "prompt": "O método mais antigo de se apagar incêndios, sendo seu agente universal a água, é chamado de:",
+      "choices": [
+        { "id": "A", "text": "retirada do combustível" },
+        { "id": "B", "text": "alagamento" },
+        { "id": "C", "text": "congelamento" },
+        { "id": "D", "text": "abafamento" },
+        { "id": "E", "text": "resfriamento" }
+      ],
+      "answer": "E",
+      "tags": ["incêndio", "água", "resfriamento", "método antigo"]
+    },
+    {
+      "id": "AA-352",
+      "category": "Segurança",
+      "prompt": "Extintores utilizados em incêndios classe \"D\" são identificados por meio:",
+      "choices": [
+        { "id": "A", "text": "um quadrado vermelho" },
+        { "id": "B", "text": "triangulo amarelo" },
+        { "id": "C", "text": "uma estrela amarela" },
+        { "id": "D", "text": "um círculo azul" },
+        { "id": "E", "text": "um triangulo verde" }
+      ],
+      "answer": "C",
+      "tags": ["extintores", "classe D", "estrela amarela", "identificação"]
+    },
+    {
+      "id": "AA-353",
+      "category": "Segurança",
+      "prompt": "A temperatura mínima na qual um combustível desprende gases suficientes para serem inflamados por uma fonte externa de calor, mas não em quantidade suficiente para manter a combustão chama-se:",
+      "choices": [
+        { "id": "A", "text": "ponto de fulgor" },
+        { "id": "B", "text": "ponto de ebulição" },
+        { "id": "C", "text": "ponto de orvalho" },
+        { "id": "D", "text": "temperatura de ignição" },
+        { "id": "E", "text": "ponto de detonação" }
+      ],
+      "answer": "A",
+      "tags": ["ponto de fulgor", "combustível", "gases", "temperatura mínima"]
+    },
+    {
+      "id": "AA-354",
+      "category": "Equipamentos",
+      "prompt": "A balsa salva-vidas rígida serve para ser utilizada:",
+      "choices": [
+        { "id": "A", "text": "para lazer em proximidades de praias" },
+        {
+          "id": "B",
+          "text": "para abandonar a embarcação em caso de emergência"
+        },
+        { "id": "C", "text": "no caso de emergência abordo" },
+        { "id": "D", "text": "para apoio à manutenção do casco de embarcação" },
+        { "id": "E", "text": "no caso de incêndio a bordo" }
+      ],
+      "answer": "B",
+      "tags": [
+        "balsa salva-vidas",
+        "rígida",
+        "abandonar embarcação",
+        "emergência"
+      ]
+    },
+    {
+      "id": "AA-355",
+      "category": "Penalidades",
+      "prompt": "A não existência de extintores a bordo de uma lancha ou a existência de extintores vencidos acarretará:",
+      "choices": [
+        { "id": "A", "text": "em nenhuma medida administrativa" },
+        {
+          "id": "B",
+          "text": "multa para o comandante do barco e interrupção da singradura"
+        },
+        { "id": "C", "text": "repreensão para o comandante da embarcação" },
+        {
+          "id": "D",
+          "text": "suspensão da carteira de habilitação do comandante"
+        },
+        { "id": "E", "text": "apreensão da embarcação" }
+      ],
+      "answer": "B",
+      "tags": ["extintores", "vencidos", "multa", "interrupção", "singradura"]
+    },
+    {
+      "id": "AA-356",
+      "category": "Sinalização",
+      "prompt": "De acordo com Regulamento Internacional para Evitar Abalroamento no Mar (RIPEAM), as luzes de bordos, verde a boreste e encarnada a bombordo, podem ser vistas num ângulo de?",
+      "choices": [
+        { "id": "A", "text": "122,5º a partir da popa" },
+        { "id": "B", "text": "102,5º a partir da popa" },
+        { "id": "C", "text": "112,5º a partir da proa" },
+        { "id": "D", "text": "135,5º a partir da popa" },
+        { "id": "E", "text": "132,5º a partir da proa" }
+      ],
+      "answer": "C",
+      "tags": ["RIPEAM", "luzes de bordos", "112,5º", "proa", "ângulo"]
+    },
+    {
+      "id": "AA-357",
+      "category": "Legislação",
+      "prompt": "Ao constatar qualquer irregularidade nos sinais náuticos ou auxílios à navegação, qual deve ser a atitude do navegante? deverá comunicar imediatamente o fato a (o):",
+      "choices": [
+        { "id": "A", "text": "Comparar com os últimos Avisos aos Navegantes" },
+        {
+          "id": "B",
+          "text": "Informar o fato à prefeitura da cidade mais próxima"
+        },
+        { "id": "C", "text": "Tentar reparar ou reposicionar o sinal" },
+        {
+          "id": "D",
+          "text": "Não agir, pois não tem competência sobre o assunto, que é da Capitania dos Portos"
+        },
+        {
+          "id": "E",
+          "text": "Informar o fato ao Agente da Autoridade Marítima local"
+        }
+      ],
+      "answer": "E",
+      "tags": [
+        "irregularidade",
+        "sinais náuticos",
+        "autoridade marítima",
+        "comunicação"
+      ]
+    },
+    {
+      "id": "AA-358",
+      "category": "Segurança",
+      "prompt": "Assinale qual das alternativas abaixo está correta:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "a espuma não pode ser usada para combater fogo na gasolina pois é muito corrosiva"
+        },
+        {
+          "id": "B",
+          "text": "não podemos usar água na para combater fogo na gasolina pois a temperatura de ignição da gasolina é inferior à temperatura da água"
+        },
+        {
+          "id": "C",
+          "text": "a espuma combate o fogo na gasolina por resfriamento pois é muito gelada"
+        },
+        {
+          "id": "D",
+          "text": "a água do mar dissolve a gasolina e se mistura a ela rapidamente, apagando o incêndio"
+        },
+        {
+          "id": "E",
+          "text": "podemos usar água para combater o fogo na gasolina pois a água baixa a temperatura de ignição"
+        }
+      ],
+      "answer": "B",
+      "tags": [
+        "gasolina",
+        "água",
+        "temperatura de ignição",
+        "combate a incêndio"
+      ]
+    },
+    {
+      "id": "AA-359",
+      "category": "Penalidades",
+      "prompt": "Caso a embarcação seja flagrada sem a dotação completa de extintores de incêndios, além da interrupção da singradura ou impedimento de saída, quais serão as sanções que poderão ser aplicadas?",
+      "choices": [
+        { "id": "A", "text": "apreensão da embarcação" },
+        { "id": "B", "text": "não há sanções administrativas, só comerciais" },
+        {
+          "id": "C",
+          "text": "multa ou suspensão do Certificado de Habilitação de Amador"
+        },
+        { "id": "D", "text": "apreensão da embarcação e advertência" },
+        {
+          "id": "E",
+          "text": "apreensão da embarcação e Certificado de Habilitação de Amador"
+        }
+      ],
+      "answer": "C",
+      "tags": ["extintores", "dotação", "multa", "suspensão", "CHA"]
+    },
+    {
+      "id": "AA-360",
+      "category": "Sinalização",
+      "prompt": "De acordo com Regulamento Internacional para Evitar Abalroamento no Mar (RIPEAM), as marcas em forma de balão (esfera), cones, etc utilizadas pelos barcos para sinalizar durante o dia diversas condições são da cor:",
+      "choices": [
+        { "id": "A", "text": "encarnada" },
+        { "id": "B", "text": "preta" },
+        { "id": "C", "text": "amarela" },
+        { "id": "D", "text": "verde" },
+        { "id": "E", "text": "branca" }
+      ],
+      "answer": "B",
+      "tags": [
+        "RIPEAM",
+        "marcas",
+        "balão",
+        "cones",
+        "preta",
+        "sinalização diurna"
+      ]
+    },
+    {
+      "id": "AA-361",
+      "category": "Segurança",
+      "prompt": "Dentre as alternativas abaixo, o único que precisar estar permanentemente com o colete salva-vidas vestido é o:",
+      "choices": [
+        { "id": "A", "text": "condutor da moto aquática" },
+        { "id": "B", "text": "proeiro de qualquer embarcação de grande porte" },
+        { "id": "C", "text": "comandante da lancha" },
+        { "id": "D", "text": "cozinheiro da embarcação" },
+        { "id": "E", "text": "passageiro de uma embarcação de médio porte" }
+      ],
+      "answer": "A",
+      "tags": [
+        "colete salva-vidas",
+        "moto aquática",
+        "condutor",
+        "permanentemente"
+      ]
+    },
+    {
+      "id": "AA-362",
+      "category": "Legislação",
+      "prompt": "É facultativo marcar (afixar ou pintar) o nome do barco no costado para apenas:",
+      "choices": [
+        { "id": "A", "text": "as embarcações para fins comerciais" },
+        { "id": "B", "text": "as embarcações miúdas" },
+        { "id": "C", "text": "as embarcações estrangeiras em águas nacionais" },
+        { "id": "D", "text": "os barcos de órgãos oficiais do governo" },
+        {
+          "id": "E",
+          "text": "os barcos de fiscalização da Autoridade Marítima"
+        }
+      ],
+      "answer": "B",
+      "tags": ["nome do barco", "costado", "embarcações miúdas", "facultativo"]
+    },
+    {
+      "id": "AA-363",
+      "category": "Navegação",
+      "prompt": "Em um barco com dois motores (dois eixos e dois hélice), qual será a tendência da proa se um dos hélices estiver numa rotação inferior ao outro?",
+      "choices": [
+        { "id": "A", "text": "A proa irá ficar instável, variando" },
+        { "id": "B", "text": "A proa tenderá a seguir uma linha reta" },
+        {
+          "id": "C",
+          "text": "A proa tenderá a ir para o mesmo bordo do hélice que está com maior rotação"
+        },
+        { "id": "D", "text": "Não haverá tendências na direção da proa" },
+        {
+          "id": "E",
+          "text": "A proa tenderá a ir para o mesmo bordo do hélice que está com menor rotação"
+        }
+      ],
+      "answer": "E",
+      "tags": ["dois motores", "hélices", "rotação", "proa", "tendência"]
+    },
+    {
+      "id": "AA-364",
+      "category": "Segurança",
+      "prompt": "Os símbolos internacionais dos incêndios classe \"A\" e \"D\" são respectivamente:",
+      "choices": [
+        { "id": "A", "text": "um quadrado vermelho e um círculo azul" },
+        { "id": "B", "text": "um quadrado vermelho e uma estrela verde" },
+        { "id": "C", "text": "um triângulo verde e uma estrela amarela" },
+        { "id": "D", "text": "uma estrela verde e um triângulo amarelo" },
+        { "id": "E", "text": "um triângulo amarelo e uma estrela verde" }
+      ],
+      "answer": "C",
+      "tags": [
+        "incêndio",
+        "símbolos internacionais",
+        "classe A",
+        "classe D",
+        "triângulo verde",
+        "estrela amarela"
+      ]
+    },
+    {
+      "id": "AA-365",
+      "category": "Legislação",
+      "prompt": "Qual das atividades abaixo não pode ser praticada por um navegante amador?",
+      "choices": [
+        { "id": "A", "text": "Reboque de kite-surf" },
+        { "id": "B", "text": "Pesca profissional" },
+        { "id": "C", "text": "Pesca amadora" },
+        { "id": "D", "text": "Apoio a regatas a vela" },
+        { "id": "E", "text": "Reboque de esqui aquático" }
+      ],
+      "answer": "B",
+      "tags": [
+        "navegante amador",
+        "pesca profissional",
+        "proibido",
+        "atividades"
+      ]
+    },
+    {
+      "id": "AA-366",
+      "category": "Segurança",
+      "prompt": "Qual o agente extintor mais efetivo em incêndio classe \"B\", e que também pode ser usado em um incêndio classe \"A\":",
+      "choices": [
+        { "id": "A", "text": "Gás carbônico" },
+        { "id": "B", "text": "Pó químico" },
+        { "id": "C", "text": "Espuma química" },
+        { "id": "D", "text": "Gás halon" },
+        { "id": "E", "text": "Água" }
+      ],
+      "answer": "C",
+      "tags": [
+        "agente extintor",
+        "classe B",
+        "classe A",
+        "espuma química",
+        "efetivo"
+      ]
+    },
+    {
+      "id": "AA-367",
+      "category": "Navegação",
+      "prompt": "Qual o mais aconselhável e mais rápido procedimento para se analisar e descobrir a profundidade de um local de fundeio?",
+      "choices": [
+        { "id": "A", "text": "Consultando a carta 12.000" },
+        { "id": "B", "text": "Consultando o GPS" },
+        { "id": "C", "text": "Consultando o Aviso aos Navegantes" },
+        { "id": "D", "text": "Consultando o odômetro" },
+        { "id": "E", "text": "Consultando a carta náutica daquele local" }
+      ],
+      "answer": "E",
+      "tags": [
+        "profundidade",
+        "fundeio",
+        "carta náutica",
+        "procedimento",
+        "aconselhável"
+      ]
+    },
+    {
+      "id": "AA-368",
+      "category": "Navegação",
+      "prompt": "São dois cotes, um dado contra o outro, de modo que os dois chicotes saiam por entre eles, em sentidos contrários. Usado (a) para fixar o chicote em mastro, malaguetas ou cunho. De que nó ou volta estamos falando?",
+      "choices": [
+        { "id": "A", "text": "Balso do calafate" },
+        { "id": "B", "text": "Balso de correr" },
+        { "id": "C", "text": "Volta do fiel" },
+        { "id": "D", "text": "Catau de reboque" },
+        { "id": "E", "text": "Lais de guia" }
+      ],
+      "answer": "C",
+      "tags": ["nó", "volta do fiel", "chicotes", "mastro", "malaguetas"]
+    },
+    {
+      "id": "AA-369",
+      "category": "Legislação",
+      "prompt": "Uma embarcação de esporte e recreio que deseja rebocar algo deverá ter a bordo:",
+      "choices": [
+        { "id": "A", "text": "uma pessoa habilitada somente" },
+        {
+          "id": "B",
+          "text": "autorização especial para reboque de dispositivo de esporte e recreio"
+        },
+        {
+          "id": "C",
+          "text": "um profissional aquaviário para garantir a segurança do dispositivo de reboque"
+        },
+        {
+          "id": "D",
+          "text": "além de uma pessoa habilitada na condução da embarcação, outra para observar o dispositivo rebocado"
+        },
+        {
+          "id": "E",
+          "text": "o material de reboque certificado pela Diretoria de Portos e Costa"
+        }
+      ],
+      "answer": "D",
+      "tags": [
+        "reboque",
+        "esporte e recreio",
+        "pessoa habilitada",
+        "observador",
+        "dispositivo"
+      ]
+    },
+    {
+      "id": "AA-370",
+      "category": "Segurança",
+      "prompt": "A melhor maneira de saltar na água, utilizando o colete salva-vidas, é com:",
+      "choices": [
+        { "id": "A", "text": "as pernas esticadas e os pés juntos" },
+        { "id": "B", "text": "a mão direita no nariz e os pés separados" },
+        { "id": "C", "text": "os pés juntos e os pés separados" },
+        { "id": "D", "text": "de cabeça protegendo o rosto" },
+        {
+          "id": "E",
+          "text": "as pernas abertas, a mão direita no nariz e a mão esquerda no ombro"
+        }
+      ],
+      "answer": "A",
+      "tags": [
+        "saltar na água",
+        "colete salva-vidas",
+        "pernas esticadas",
+        "pés juntos"
+      ]
+    },
+    {
+      "id": "AA-371",
+      "category": "Sinalização",
+      "prompt": "Assinale a alternativa que corresponde ao sinal de águas seguras que é aquele sinal cego ou luminoso, é empregado para indicar a existência de águas navegáveis em todo o seu entorno, o meio de um canal, um ponto de aterragem ou um ponto de espera:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "O sinal de águas seguras é dotado de marca de tope, duas esferas pretas, uma sobre a outra"
+        },
+        {
+          "id": "B",
+          "text": "O sinal de águas seguras apresenta-se pintado com faixas verticais encarnadas e brancas e pode exibir uma esfera na cor encarnada como marca de tope"
+        },
+        {
+          "id": "C",
+          "text": "O sinal de águas seguras apresenta sua estrutura pintada de amarelo na metade superior e de preto na metade inferior e deve exibir, como marca de tope, 2 cones na cor preta um acima do outro, ambos com os vértices voltados para cima"
+        },
+        {
+          "id": "D",
+          "text": "O sinal de águas seguras apresenta sua estrutura pintada de preto com uma faixa larga horizontal amarela no meio e deve exibir, como marca de tope, 2 cones na cor preta um acima do outro, o superior com vértice voltado para cima e o inferior com o vértice voltado para baixo"
+        },
+        {
+          "id": "E",
+          "text": "O sinal de águas seguras apresenta sua estrutura pintada de amarelo com uma faixa larga horizontal preta no meio e deve exibir, como marca de tope, 2 cones na cor preta um acima do outro, o superior com vértice voltado para baixo e o inferior com o vértice voltado para cima"
+        }
+      ],
+      "answer": "B",
+      "tags": [
+        "águas seguras",
+        "faixas verticais",
+        "encarnadas e brancas",
+        "esfera encarnada",
+        "marca de tope"
+      ]
+    },
+    {
+      "id": "AA-372",
+      "category": "Legislação",
+      "prompt": "Uma embarcação de esporte e/ou recreio deve ser registrada no Tribunal Marítimo sempre que sua Arqueação Bruta (AB) exceder a:",
+      "choices": [
+        { "id": "A", "text": "100" },
+        { "id": "B", "text": "90" },
+        { "id": "C", "text": "120" },
+        { "id": "D", "text": "140" },
+        { "id": "E", "text": "80" }
+      ],
+      "answer": "A",
+      "tags": ["Tribunal Marítimo", "registro", "Arqueação Bruta", "AB", "100"]
+    },
+    {
+      "id": "AA-373",
+      "category": "Navegação",
+      "prompt": "Em que situação a embarcação que tem preferência poderá manobrar para evitar um abalroamento:",
+      "choices": [
+        { "id": "A", "text": "Quando a outra não atender a fonia" },
+        { "id": "B", "text": "Quando o mar estiver calmo" },
+        {
+          "id": "C",
+          "text": "Quando a outra a quem cabe manobrar não o está fazendo apropriadamente"
+        },
+        { "id": "D", "text": "Quando avistar a outra pelo seu través" },
+        { "id": "E", "text": "Quando avistar a outra por bombordo" }
+      ],
+      "answer": "C",
+      "tags": [
+        "preferência",
+        "manobrar",
+        "abalroamento",
+        "situação",
+        "navegação"
+      ]
+    },
+    {
+      "id": "AA-374",
+      "category": "Segurança",
+      "prompt": "Para segurança da embarcação, devemos proceder a diversas verificações antes de sairmos para navegar, exceto:",
+      "choices": [
+        { "id": "A", "text": "verificar as luzes de navegação" },
+        { "id": "B", "text": "verificar os equipamentos de salvatagem" },
+        {
+          "id": "C",
+          "text": "verificar os equipamentos de combate a incêndio"
+        },
+        {
+          "id": "D",
+          "text": "verificar se a embarcação está com as acomodações limpas e arrumadas"
+        },
+        { "id": "E", "text": "verificar os equipamentos rádio" }
+      ],
+      "answer": "D",
+      "tags": ["segurança", "verificações", "acomodações", "navegação"]
+    },
+    {
+      "id": "AA-375",
+      "category": "Sinalização",
+      "prompt": "No balizamento de uma hidrovia um sinal \"X\" significa:",
+      "choices": [
+        { "id": "A", "text": "seguir margem" },
+        { "id": "B", "text": "trocar de margem" },
+        { "id": "C", "text": "seguir no meio do canal" },
+        { "id": "D", "text": "bifurcação de canal" },
+        { "id": "E", "text": "proibido parar" }
+      ],
+      "answer": "B",
+      "tags": ["hidrovia", "sinal X", "trocar margem", "balizamento"]
+    },
+    {
+      "id": "AA-376",
+      "category": "Legislação",
+      "prompt": "Todo aquele que é transportado pela embarcação, não fazendo parte da tripulação e sem estar prestando serviço profissional a bordo, é considerado:",
+      "choices": [
+        { "id": "A", "text": "tripulante" },
+        { "id": "B", "text": "profissional não tripulante" },
+        { "id": "C", "text": "passageiro" },
+        { "id": "D", "text": "patrão" },
+        { "id": "E", "text": "comandante" }
+      ],
+      "answer": "C",
+      "tags": ["passageiro", "tripulação", "serviço profissional", "definição"]
+    },
+    {
+      "id": "AA-377",
+      "category": "Sinalização",
+      "prompt": "Embarcações de propulsão mecânica que não estão obrigadas a exibir a luz de mastro de ré são aquelas menores de:",
+      "choices": [
+        { "id": "A", "text": "100 metros" },
+        { "id": "B", "text": "70 metros" },
+        { "id": "C", "text": "50 metros" },
+        { "id": "D", "text": "80 metros" },
+        { "id": "E", "text": "60 metros" }
+      ],
+      "answer": "C",
+      "tags": [
+        "luz de mastro de ré",
+        "50 metros",
+        "propulsão mecânica",
+        "obrigatoriedade"
+      ]
+    },
+    {
+      "id": "AA-378",
+      "category": "Navegação",
+      "prompt": "Deverá ser considerada uma embarcação alcançando outra, toda embarcação que se aproximar de outra, vindo de uma direção de:",
+      "choices": [
+        { "id": "A", "text": "mais de 22,5º para ré do través dessa última" },
+        { "id": "B", "text": "menos de 112,5º para ré do través dessa última" },
+        { "id": "C", "text": "mais de 112,5º para ré do través dessa última" },
+        { "id": "D", "text": "menos de 22,5º para ré do través dessa última" },
+        {
+          "id": "E",
+          "text": "mais de 22,5º e menos de 112,5º para ré do través dessa última"
+        }
+      ],
+      "answer": "A",
+      "tags": ["embarcação alcançando", "22,5º", "ré do través", "direção"]
+    },
+    {
+      "id": "AA-379",
+      "category": "Segurança",
+      "prompt": "Comburente é todo elemento que, associando-se quimicamente ao combustível, é capaz de fazê-lo entrar em combustão. O comburente mais facilmente encontrado na natureza é o:",
+      "choices": [
+        { "id": "A", "text": "oxigênio" },
+        { "id": "B", "text": "hidrogênio" },
+        { "id": "C", "text": "gás carbônico" },
+        { "id": "D", "text": "gás hélio" },
+        { "id": "E", "text": "nitrogênio" }
+      ],
+      "answer": "A",
+      "tags": ["comburente", "oxigênio", "combustão", "combustível"]
+    },
+    {
+      "id": "AA-380",
+      "category": "Equipamentos",
+      "prompt": "As instruções para operar, manusear e lançar os dispositivos pirotécnicos (foguetes) e fumígeno estão contidas",
+      "choices": [
+        { "id": "A", "text": "nos manuais" },
+        { "id": "B", "text": "na RLESTA" },
+        { "id": "C", "text": "nas embalagens dos mesmos" },
+        { "id": "D", "text": "na LESTA" },
+        { "id": "E", "text": "na NORMAM-03/DPC" }
+      ],
+      "answer": "C",
+      "tags": [
+        "dispositivos pirotécnicos",
+        "foguetes",
+        "fumígeno",
+        "embalagens",
+        "instruções"
+      ]
+    },
+    {
+      "id": "AA-381",
+      "category": "Primeiros Socorros",
+      "prompt": "Qual a frequência ideal de compressão e descompressão do peito, na massagem cardíaca externa?",
+      "choices": [
+        { "id": "A", "text": "69 vezes por minuto" },
+        { "id": "B", "text": "30 vezes por minuto" },
+        { "id": "C", "text": "60 vezes por minuto" },
+        { "id": "D", "text": "120 vezes por minuto" },
+        { "id": "E", "text": "50 vezes por minuto" }
+      ],
+      "answer": "A",
+      "tags": [
+        "massagem cardíaca",
+        "69 vezes por minuto",
+        "compressão",
+        "frequência"
+      ]
+    },
+    {
+      "id": "AA-382",
+      "category": "Primeiros Socorros",
+      "prompt": "Hipotermia se dá:",
+      "choices": [
+        { "id": "A", "text": "somente em água fresca" },
+        { "id": "B", "text": "somente em água quente" },
+        {
+          "id": "C",
+          "text": "qualquer água que esfrie o suficiente para baixar a temperatura do corpo a menos de 35º centigrados"
+        },
+        { "id": "D", "text": "qualquer água" },
+        { "id": "E", "text": "somente em água morna" }
+      ],
+      "answer": "C",
+      "tags": ["hipotermia", "35º centigrados", "temperatura do corpo", "água"]
+    },
+    {
+      "id": "AA-383",
+      "category": "Sinalização",
+      "prompt": "De acordo com Regulamento Internacional para Evitar Abalroamento no Mar (RIPEAM), quando fundeado à noite com minha lancha de nove metros de comprimento, além de exibir uma luz circular branca onde melhor possa ser vista, posso também nessa situação:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "acender a luz encarnada a bombordo e verde a boreste"
+        },
+        { "id": "B", "text": "acender todas as luzes de mastro" },
+        { "id": "C", "text": "iluminar todo convés principal" },
+        {
+          "id": "D",
+          "text": "acender somente as luzes necessárias para pesca amadora"
+        },
+        {
+          "id": "E",
+          "text": "acender qualquer luz de navegação pois meu barco estará parado"
+        }
+      ],
+      "answer": "C",
+      "tags": ["RIPEAM", "fundeado", "convés principal", "iluminação", "noite"]
+    },
+    {
+      "id": "AA-384",
+      "category": "Sinalização",
+      "prompt": "Uma luz intermitente amarela cruzando o canal, à noite, poderá ser:",
+      "choices": [
+        { "id": "A", "text": "uma embarcação de colchão de ar (hoverdraft)" },
+        {
+          "id": "B",
+          "text": "uma embarcação dos serviços de praticagem do porto"
+        },
+        { "id": "C", "text": "uma embarcação de socorro e salvamento" },
+        {
+          "id": "D",
+          "text": "um rebocador do porto se dirigindo para a manobra"
+        },
+        {
+          "id": "E",
+          "text": "a lancha da Capitania dos Portos realizando Inspeção Naval"
+        }
+      ],
+      "answer": "A",
+      "tags": [
+        "luz intermitente amarela",
+        "hoverdraft",
+        "colchão de ar",
+        "canal",
+        "noite"
+      ]
+    },
+    {
+      "id": "AA-385",
+      "category": "Segurança",
+      "prompt": "Sabemos que os coletes salva-vidas são exigidos nas embarcações de esporte e recreio. Das alternativas abaixo, qual deverá, obrigatoriamente, estar usando (vestido) com o colete salva-vidas:",
+      "choices": [
+        { "id": "A", "text": "comandante das embarcações" },
+        { "id": "B", "text": "somente o condutor da moto aquática" },
+        { "id": "C", "text": "somente o passageiro da moto aquática" },
+        { "id": "D", "text": "condutor e passageiro da moto aquática" },
+        {
+          "id": "E",
+          "text": "todos os passageiros de embarcações de médio porte"
+        }
+      ],
+      "answer": "D",
+      "tags": [
+        "colete salva-vidas",
+        "moto aquática",
+        "condutor",
+        "passageiro",
+        "obrigatório"
+      ]
+    },
+    {
+      "id": "AA-386",
+      "category": "Legislação",
+      "prompt": "O Amador terá sua Carteira de Habilitação de Amador (CHA) cancelada, e será excluído do banco de dados da Marinha (SISAMA), sem prejuízo de outras penalidades prevista na legislação em vigor, quando for reincidente nas ações discriminadas abaixo, EXCETO:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "entregar a condução da embarcação a pessoa habilitada"
+        },
+        {
+          "id": "B",
+          "text": "utilizar a embarcação de esporte e recreio, em atividades comerciais, para transporte de passageiros ou carga"
+        },
+        { "id": "C", "text": "utilizar a embarcação para pratica de crime" },
+        {
+          "id": "D",
+          "text": "conduzir a embarcação em estado de embriaguez alcoólica ou sob efeito de substância tóxica de qualquer natureza"
+        },
+        {
+          "id": "E",
+          "text": "entregar a condução da embarcação a pessoa não habilitada"
+        }
+      ],
+      "answer": "A",
+      "tags": [
+        "CHA",
+        "cancelamento",
+        "reincidente",
+        "pessoa habilitada",
+        "penalidades"
+      ]
+    },
+    {
+      "id": "AA-387",
+      "category": "Primeiros Socorros",
+      "prompt": "Na intoxicação por gases a pele assume a cor:",
+      "choices": [
+        { "id": "A", "text": "azulada" },
+        { "id": "B", "text": "avermelhada" },
+        { "id": "C", "text": "acinzentada" },
+        { "id": "D", "text": "amarelada" },
+        { "id": "E", "text": "esverdeada" }
+      ],
+      "answer": "A",
+      "tags": ["intoxicação", "gases", "pele", "azulada", "primeiros socorros"]
+    },
+    {
+      "id": "AA-388",
+      "category": "Navegação",
+      "prompt": "Basicamente o leme se divide em:",
+      "choices": [
+        { "id": "A", "text": "madre, anete e porta" },
+        { "id": "B", "text": "corpo, anete e cepo" },
+        { "id": "C", "text": "cabeça, corpo e dobradiças" },
+        { "id": "D", "text": "madre, cana e porta" },
+        { "id": "E", "text": "cabeça, anete e haste" }
+      ],
+      "answer": "D",
+      "tags": ["leme", "madre", "cana", "porta", "divisão"]
+    },
+    {
+      "id": "AA-389",
+      "category": "Navegação",
+      "prompt": "De acordo com o Regulamento Internacional para Evitar Abalroamento no Mar (RIPEAM), no meio a um forte nevoeiro uma embarcação detectou no radar a presença de outra embarcação navegando por ante a vante de seu través, com risco de abalroamento, mas constatou também que tem preferência sobre a embarcação detectada. Neste caso ela deverá:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "soar um apito longo em intervalos não superiores a dois minutos e fazer contato rádio"
+        },
+        {
+          "id": "B",
+          "text": "soar um apito longo em intervalos não superiores a dois minutos e reduzir a velocidade ao mínimo que lhe permita manter seu rumo"
+        },
+        {
+          "id": "C",
+          "text": "soar dois apitos longo em intervalos não superiores a dois minutos e acender as luzes de navegação"
+        },
+        {
+          "id": "D",
+          "text": "soar um apito longo em intervalos não superiores a dois minutos e alterar seu rumo para bombordo"
+        },
+        {
+          "id": "E",
+          "text": "soar dois apitos longos em intervalos não superiores a dois minutos e manter seu rumo e velocidade"
+        }
+      ],
+      "answer": "B",
+      "tags": [
+        "RIPEAM",
+        "nevoeiro",
+        "radar",
+        "preferência",
+        "reduzir velocidade"
+      ]
+    },
+    {
+      "id": "AA-390",
+      "category": "Navegação",
+      "prompt": "A distância vertical entre o plano de flutuação para imersão máxima e a interseção da face superior do convés com a superfície exterior do casco, no plano transversal a meio navio, é definida como:",
+      "choices": [
+        { "id": "A", "text": "borda livre" },
+        { "id": "B", "text": "pontal" },
+        { "id": "C", "text": "comprimento" },
+        { "id": "D", "text": "calado" },
+        { "id": "E", "text": "boca" }
+      ],
+      "answer": "A",
+      "tags": [
+        "borda livre",
+        "plano de flutuação",
+        "convés",
+        "casco",
+        "distância vertical"
+      ]
+    },
+    {
+      "id": "AA-391",
+      "category": "Sinalização",
+      "prompt": "Quando praticando navegação interior, em águas abrigadas, uma unidade de \"facho manual\" de luz vermelha será obrigatória somente para:",
+      "choices": [
+        { "id": "A", "text": "embarcações de médio porte" },
+        { "id": "B", "text": "embarcações motorizadas" },
+        { "id": "C", "text": "embarcações de grande porte" },
+        {
+          "id": "D",
+          "text": "embarcações menores de 12 metros, exceto miúdas"
+        },
+        { "id": "E", "text": "embarcações miúdas" }
+      ],
+      "answer": "C",
+      "tags": [
+        "facho manual",
+        "luz vermelha",
+        "grande porte",
+        "navegação interior",
+        "obrigatório"
+      ]
+    },
+    {
+      "id": "AA-392",
+      "category": "Navegação",
+      "prompt": "Para desatracar a embarcação devemos, como regra geral:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "largar os cabos de vante e abrir a proa dando máquinas adiante"
+        },
+        {
+          "id": "B",
+          "text": "largar todos os cabos e dar máquinas adiante toda força, para sair rapidamente do cais"
+        },
+        {
+          "id": "C",
+          "text": "largar os cabos de ré, procurando utilizar os cabos de vante para abrir a popa com máquina adiante toda força"
+        },
+        {
+          "id": "D",
+          "text": "largar os cabos de ré, procurando manobrar para abrir a popa, aproveitar o efeito do leme para afastar a popa e então largar os cabos de vante"
+        },
+        {
+          "id": "E",
+          "text": "largar os cabos de vante a abrir a proa dando máquinas atrás"
+        }
+      ],
+      "answer": "D",
+      "tags": ["desatracar", "cabos de ré", "cabos de vante", "popa", "leme"]
+    },
+    {
+      "id": "AA-393",
+      "category": "Navegação",
+      "prompt": "É definido como sendo a distância horizontal entre os pontos extremos da proa a popa de uma embarcação:",
+      "choices": [
+        { "id": "A", "text": "comprimento da embarcação" },
+        { "id": "B", "text": "convés principal" },
+        { "id": "C", "text": "convés de borda livre" },
+        { "id": "D", "text": "borda livre" },
+        { "id": "E", "text": "pontal" }
+      ],
+      "answer": "A",
+      "tags": [
+        "comprimento",
+        "proa",
+        "popa",
+        "distância horizontal",
+        "embarcação"
+      ]
+    },
+    {
+      "id": "AA-394",
+      "category": "Legislação",
+      "prompt": "A Lei Federal 9.537/97 – Lei de Segurança do Tráfego Aquaviário, foi regulamentada pelo (a):",
+      "choices": [
+        { "id": "A", "text": "Regulamento do Tráfego Marítimo - RTM" },
+        { "id": "B", "text": "NORMAM-03" },
+        { "id": "C", "text": "Decreto 2.596/98 RLESTA" },
+        { "id": "D", "text": "NORMAM-07" },
+        { "id": "E", "text": "NORMAM-13" }
+      ],
+      "answer": "C",
+      "tags": [
+        "LESTA",
+        "Decreto 2.596/98",
+        "RLESTA",
+        "regulamentação",
+        "Lei Federal 9.537/97"
+      ]
+    },
+    {
+      "id": "AA-395",
+      "category": "Sinalização",
+      "prompt": "As marcas de tope do sinal cardinal norte são:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "dois cones pretos, um sobre o outro, com vértices para baixo"
+        },
+        {
+          "id": "B",
+          "text": "dois cones pretos, lado a lado, com vértices para cima"
+        },
+        {
+          "id": "C",
+          "text": "dois cones pretos, um sobre o outro, base a base"
+        },
+        {
+          "id": "D",
+          "text": "dois cones pretos, um sobre o outro, com vértices para cima"
+        },
+        {
+          "id": "E",
+          "text": "dois cones pretos, um sobre o outro, vértice a vértice"
+        }
+      ],
+      "answer": "D",
+      "tags": [
+        "sinal cardinal norte",
+        "dois cones pretos",
+        "vértices para cima",
+        "marcas de tope"
+      ]
+    },
+    {
+      "id": "AA-396",
+      "category": "Segurança",
+      "prompt": "Se for utilizado em ambientes fechados e de pequeno volume, em qual dos tipos de agentes extintores listados abaixo devemos ter cuidado quanto a uma eventual sufocação?",
+      "choices": [
+        { "id": "A", "text": "espuma" },
+        { "id": "B", "text": "gás halon" },
+        { "id": "C", "text": "pó químico" },
+        { "id": "D", "text": "água" },
+        { "id": "E", "text": "gás carbônico" }
+      ],
+      "answer": "E",
+      "tags": [
+        "gás carbônico",
+        "ambientes fechados",
+        "sufocação",
+        "agente extintor",
+        "cuidado"
+      ]
+    },
+    {
+      "id": "AA-397",
+      "category": "Segurança",
+      "prompt": "As coletes salva-vidas infláveis devem ser enchidos:",
+      "choices": [
+        { "id": "A", "text": "ao iniciar a viagem" },
+        { "id": "B", "text": "quando já dentro da água" },
+        { "id": "C", "text": "somente depois que entrar na balsa" },
+        { "id": "D", "text": "antes de abandonar a embarcação" },
+        { "id": "E", "text": "antes de pular na água" }
+      ],
+      "answer": "B",
+      "tags": ["colete salva-vidas", "inflável", "dentro da água", "enchido"]
+    },
+    {
+      "id": "AA-398",
+      "category": "Legislação",
+      "prompt": "De acordo com a RLESTA, a navegação realizada exclusivamente nos portos e terminais aquaviários para atendimento de embarcações e instalações portuárias é classificada como:",
+      "choices": [
+        { "id": "A", "text": "praticagem" },
+        { "id": "B", "text": "interior" },
+        { "id": "C", "text": "apoio portuário" },
+        { "id": "D", "text": "apoio marítimo" },
+        { "id": "E", "text": "abrigada" }
+      ],
+      "answer": "C",
+      "tags": [
+        "RLESTA",
+        "navegação",
+        "portos",
+        "terminais aquaviários",
+        "apoio portuário"
+      ]
+    },
+    {
+      "id": "AA-399",
+      "category": "Equipamentos",
+      "prompt": "Descreva o RACON e esclareça qual é a sua finalidade:",
+      "choices": [
+        { "id": "A", "text": "é um auxílio à navegação radar ativo" },
+        { "id": "B", "text": "é um auxílio à navegação radar interior" },
+        { "id": "C", "text": "é um auxílio à navegação sonar" },
+        { "id": "D", "text": "é o mesmo que sextante" },
+        {
+          "id": "E",
+          "text": "equipamento usado em conjunto com o prumo de mão"
+        }
+      ],
+      "answer": "A",
+      "tags": ["RACON", "radar ativo", "auxílio à navegação", "finalidade"]
+    },
+    {
+      "id": "AA-400",
+      "category": "Segurança",
+      "prompt": "Temperatura de ignição é:",
+      "choices": [
+        { "id": "A", "text": "uma temperatura baixa" },
+        { "id": "B", "text": "uma temperatura elevadíssima" },
+        { "id": "C", "text": "a temperatura de 100º C" },
+        { "id": "D", "text": "uma temperatura muito baixa" },
+        { "id": "E", "text": "uma temperatura adequada a combustão" }
+      ],
+      "answer": "E",
+      "tags": ["temperatura de ignição", "combustão", "adequada", "definição"]
+    },
+    {
+      "id": "AA-401",
+      "category": "Legislação",
+      "prompt": "Estão obrigadas a registro no Tribunal Marítimo todas as embarcações:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "com comprimento igual a 24 metros, que possuam mais de 50 AB"
+        },
+        { "id": "B", "text": "de médio porte, com menos de 100 AB" },
+        {
+          "id": "C",
+          "text": "com comprimento maior ou igual a 12 metros, que possuam mais de 20 AB"
+        },
+        { "id": "D", "text": "de médio porte, com amis de 50 AB" },
+        {
+          "id": "E",
+          "text": "com comprimento maior ou igual a 24 metros, que possuam mais de 100 AB"
+        }
+      ],
+      "answer": "E",
+      "tags": [
+        "Tribunal Marítimo",
+        "registro",
+        "24 metros",
+        "100 AB",
+        "obrigatoriedade"
+      ]
+    },
+    {
+      "id": "AA-402",
+      "category": "Legislação",
+      "prompt": "As embarcações brasileiras, de esporte e/ou recreio, o horário que a Bandeira Nacional deverá ser içada na popa das embarcações (exceto as miúdas), será:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "juntamente com o embandeiramento de grande gala, nos dias previstos na NORMAM"
+        },
+        {
+          "id": "B",
+          "text": "em porto estrangeiro, entre 08:00 horas ao pôr do sol"
+        },
+        {
+          "id": "C",
+          "text": "em porto nacional, das 08:00 horas ao pôr do sol"
+        },
+        {
+          "id": "D",
+          "text": "nas entradas e saídas dos portos, depois do pôr do sol"
+        },
+        { "id": "E", "text": "sempre em qualquer situação" }
+      ],
+      "answer": "C",
+      "tags": [
+        "Bandeira Nacional",
+        "popa",
+        "08:00 horas",
+        "pôr do sol",
+        "porto nacional"
+      ]
+    },
+    {
+      "id": "AA-403",
+      "category": "Navegação",
+      "prompt": "Qual é o movimento da brisa marítima e brisa terrestre e em que horário?",
+      "choices": [
+        {
+          "id": "A",
+          "text": "brisa marítima do mar para terra, a tarde e brisa terrestre da terra para o mar, pela manhã"
+        },
+        {
+          "id": "B",
+          "text": "brisa marítima do mar para terra, a tarde e brisa terrestre da terra para o mar, à noite"
+        },
+        {
+          "id": "C",
+          "text": "brisa marítima da terra para o mar, pela manhã e brisa terrestre do mar para terra, à noite"
+        },
+        {
+          "id": "D",
+          "text": "brisa maritíma, a circulação do ar, na costa à tarde e início da noite e brisa terrestre, a circulação do ar, no litoral, pela madrugada e durante a manha"
+        },
+        {
+          "id": "E",
+          "text": "brisa marítima do mar para terra, a noite e brisa terrestre da terra para o mar, pela manhã"
+        }
+      ],
+      "answer": "D",
+      "tags": [
+        "brisa marítima",
+        "brisa terrestre",
+        "circulação do ar",
+        "costa",
+        "litoral"
+      ]
+    },
+    {
+      "id": "AA-404",
+      "category": "Legislação",
+      "prompt": "O proprietário de uma embarcação foi multado e não concordou com a infração, e fez um pedido de reconsideração, quantos dias de prazo ele tem para fazer este pedido a Autoridade Marítima?",
+      "choices": [
+        { "id": "A", "text": "30 dias" },
+        { "id": "B", "text": "10 dias úteis" },
+        { "id": "C", "text": "5 dias úteis" },
+        { "id": "D", "text": "15 dias úteis" },
+        { "id": "E", "text": "120 dias" }
+      ],
+      "answer": "C",
+      "tags": [
+        "multa",
+        "reconsideração",
+        "5 dias úteis",
+        "autoridade marítima",
+        "prazo"
+      ]
+    },
+    {
+      "id": "AA-405",
+      "category": "Sinalização",
+      "prompt": "De acordo com o RIPEAM, as luzes de navegação obrigatórias para uma embarcação de mais de 50 metros de comprimento são:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "uma luz branca a ré, luzes, verde a boreste e encarnada (vermelha) a bombordo"
+        },
+        {
+          "id": "B",
+          "text": "uma luz branca a vante, uma luz branca a ré, uma luz de alcançado branca, luzes verde e encarnada (vermelha), combinadas"
+        },
+        {
+          "id": "C",
+          "text": "uma luz branca no mastro de vante, uma luz branca no mastro de ré, mais alta que a de vante, uma luz de alcançado a ré, branca, luzes, verde a boreste e encarnada (vermelha) a bombordo"
+        },
+        {
+          "id": "D",
+          "text": "uma luz branca a vante, uma luz branca a ré, luzes, encarnada (vermelha) a boreste e verde a bombordo"
+        },
+        {
+          "id": "E",
+          "text": "uma luz branca a vante, uma luz alcançado branca, luzes verde e encarnada (vermelha), combinadas luzes, verde a boreste e encarnada (vermelha) a bombordo"
+        }
+      ],
+      "answer": "C",
+      "tags": [
+        "RIPEAM",
+        "luzes de navegação",
+        "50 metros",
+        "mastro de vante",
+        "mastro de ré"
+      ]
+    },
+    {
+      "id": "AA-406",
+      "category": "Navegação",
+      "prompt": "Quando houver risco de mau tempo durante um fundeio, qual o procedimento em relação a amarra:",
+      "choices": [
+        { "id": "A", "text": "aumentar o peso da amarra e do ferro (âncora)" },
+        { "id": "B", "text": "aumentar o calado da embarcação" },
+        { "id": "C", "text": "diminuir o comprimento da amarra na água" },
+        { "id": "D", "text": "aumentar o comprimento da amarra na água" },
+        { "id": "E", "text": "dobrar a marra – duas amarras na mesma âncora" }
+      ],
+      "answer": "D",
+      "tags": ["mau tempo", "fundeio", "amarra", "comprimento", "procedimento"]
+    },
+    {
+      "id": "AA-407",
+      "category": "Navegação",
+      "prompt": "De acordo com Regulamento Internacional para Evitar Abalroamento no Mar (RIPEAM), em uma situação de risco de abalroamento constatou-se que um dos barcos tem preferência. Sendo assim, o barco que tem preferência deverá em princípio:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "diminuir a velocidade e deixar a outra embarcação passar"
+        },
+        { "id": "B", "text": "manobrar para bombordo" },
+        { "id": "C", "text": "manter seu rumo e velocidade" },
+        { "id": "D", "text": "manobrar para boreste" },
+        { "id": "E", "text": "aumentar a velocidade" }
+      ],
+      "answer": "C",
+      "tags": [
+        "RIPEAM",
+        "preferência",
+        "abalroamento",
+        "manter rumo",
+        "velocidade"
+      ]
+    },
+    {
+      "id": "AA-408",
+      "category": "Legislação",
+      "prompt": "Em relação às Áreas de Segurança estabelecidas na NORMA-03/DPC, é permitido trafegar e fundear:",
+      "choices": [
+        { "id": "A", "text": "nos locais reservado par banhistas" },
+        { "id": "B", "text": "a menos de 200 metros da linha base" },
+        {
+          "id": "C",
+          "text": "nos locais onde haja menor tráfego e concentração de embarcações"
+        },
+        {
+          "id": "D",
+          "text": "nos locais onde haja maior tráfego e concentração de embarcações"
+        },
+        { "id": "E", "text": "a menos de 5 metros da linha base" }
+      ],
+      "answer": "C",
+      "tags": [
+        "áreas de segurança",
+        "NORMAM-03",
+        "menor tráfego",
+        "concentração",
+        "fundear"
+      ]
+    },
+    {
+      "id": "AA-409",
+      "category": "Sinalização",
+      "prompt": "De acordo com o RIPEAM, os sinais sonoros que podem ser emitidos por apitos, buzinas ou ainda sinos, são utilizados em três situações:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "Manobra, perigos diversos e em canais estreitos"
+        },
+        { "id": "B", "text": "Manobra, advertência e em baixa visibilidade" },
+        {
+          "id": "C",
+          "text": "Manobra, risco de abalroamento e em canais estreitos"
+        },
+        {
+          "id": "D",
+          "text": "Manobra, risco de abalroamento e em baixa visibilidade"
+        },
+        {
+          "id": "E",
+          "text": ".Manobra, perigos diversos e em canais estreitos"
+        }
+      ],
+      "answer": "B",
+      "tags": [
+        "RIPEAM",
+        "sinais sonoros",
+        "manobra",
+        "advertência",
+        "baixa visibilidade"
+      ]
+    },
+    {
+      "id": "AA-410",
+      "category": "Navegação",
+      "prompt": "A âncora mais comum, a bordo das embarcações de esporte e recreio, é a:",
+      "choices": [
+        { "id": "A", "text": "Fateixa" },
+        { "id": "B", "text": "bruce" },
+        { "id": "C", "text": "busca-vida" },
+        { "id": "D", "text": "danforth" },
+        { "id": "E", "text": "almirantado" }
+      ],
+      "answer": "D",
+      "tags": ["âncora", "danforth", "esporte e recreio", "mais comum"]
+    },
+    {
+      "id": "AA-411",
+      "category": "Segurança",
+      "prompt": "Os colete salva-vidas devem ser:",
+      "choices": [
+        { "id": "A", "text": "conduzido pelo náufrago na mão" },
+        { "id": "B", "text": "amarrado ao corpo com segurança" },
+        {
+          "id": "C",
+          "text": "amarrado ao corpo, com a parte flutuante para frente"
+        },
+        { "id": "D", "text": "jogado na água, para o náufrago se apoiar" },
+        {
+          "id": "E",
+          "text": "amarrado ao corpo, com a parte flutuante para as costas"
+        }
+      ],
+      "answer": "C",
+      "tags": [
+        "colete salva-vidas",
+        "amarrado",
+        "parte flutuante",
+        "frente",
+        "corpo"
+      ]
+    },
+    {
+      "id": "AA-412",
+      "category": "Primeiros Socorros",
+      "prompt": "Em caso de hipotermia, após aplicarmos os primeiros socorros, devemos deixar o paciente em posição de restabelecimento que será:",
+      "choices": [
+        { "id": "A", "text": "deixar a vítima deitada em decúbito dorsal" },
+        {
+          "id": "B",
+          "text": "deixar a vítima sentada e com a cabeça ereta e bem mais alta que o resto do corpo"
+        },
+        {
+          "id": "C",
+          "text": "deixar a vítima deitada em decúbito ventral, levemente inclinada para o lado"
+        },
+        {
+          "id": "D",
+          "text": "colocar a vítima deitada de lado e com a cabeça mais baixa que o corpo"
+        },
+        {
+          "id": "E",
+          "text": "deixar a vítima à vontade para que ela encontre, por si, a posição mais confortável"
+        }
+      ],
+      "answer": "C",
+      "tags": [
+        "hipotermia",
+        "primeiros socorros",
+        "decúbito ventral",
+        "posição",
+        "restabelecimento"
+      ]
+    },
+    {
+      "id": "AA-413",
+      "category": "Primeiros Socorros",
+      "prompt": "Qual a frequência de sopros por minuto, numa respiração boca a boca:",
+      "choices": [
+        { "id": "A", "text": "na faixa de 20 a 30" },
+        { "id": "B", "text": "na faixa de 5 a 10" },
+        { "id": "C", "text": "na faixa de 10 a 15" },
+        { "id": "D", "text": "na faixa de 15 a 20" },
+        { "id": "E", "text": "na faixa de 10 a 16" }
+      ],
+      "answer": "C",
+      "tags": [
+        "respiração boca a boca",
+        "frequência",
+        "10 a 15",
+        "sopros",
+        "primeiros socorros"
+      ]
+    },
+    {
+      "id": "AA-414",
+      "category": "Legislação",
+      "prompt": "De quem e a competência de fiscalizar e executar a atividade de sinalização náutica e, a quem se deve recorrer, caso seja detectado qualquer dano na mesma?",
+      "choices": [
+        { "id": "A", "text": "Diretoria de Hidrografia e Navegação" },
+        { "id": "B", "text": "Diretoria de Portos e Costas" },
+        { "id": "C", "text": "Capitania dos Portos" },
+        { "id": "D", "text": "Distrito naval" },
+        { "id": "E", "text": "Prefeitura Municipal" }
+      ],
+      "answer": "C",
+      "tags": [
+        "sinalização náutica",
+        "Capitania dos Portos",
+        "fiscalização",
+        "competência"
+      ]
+    },
+    {
+      "id": "AA-415",
+      "category": "Legislação",
+      "prompt": "A NORMAM 03 define lotação como:",
+      "choices": [
+        { "id": "A", "text": "quantidade de pessoas efetivamente embarcadas" },
+        {
+          "id": "B",
+          "text": "quantidade de pessoas efetivamente embarcadas, excluindo a tripulação"
+        },
+        {
+          "id": "C",
+          "text": "quantidade máxima de pessoas autorizadas a embarcar, excluindo a tripulação"
+        },
+        {
+          "id": "D",
+          "text": "quantidade máxima de pessoas autorizadas a embarcar, incluindo a tripulação"
+        },
+        { "id": "E", "text": "Nenhuma das alternativas Acima" }
+      ],
+      "answer": "D",
+      "tags": [
+        "NORMAM 03",
+        "lotação",
+        "quantidade máxima",
+        "tripulação",
+        "definição"
+      ]
+    },
+    {
+      "id": "AA-416",
+      "category": "Legislação",
+      "prompt": "O aluguel de embarcações de esporte e ou recreio para fins de uso comercial:",
+      "choices": [
+        { "id": "A", "text": "é permitido para empresa de turismo" },
+        { "id": "B", "text": "é permitido para empresas que operem mergulho" },
+        { "id": "C", "text": "é proibido" },
+        {
+          "id": "D",
+          "text": "só é admitido com finalidade de recreação ou prática de esportes"
+        },
+        { "id": "E", "text": "somente para unidades da Marinha do Brasil" }
+      ],
+      "answer": "C",
+      "tags": [
+        "aluguel",
+        "esporte e recreio",
+        "uso comercial",
+        "proibido",
+        "legislação"
+      ]
+    },
+    {
+      "id": "AA-417",
+      "category": "Legislação",
+      "prompt": "São circunstancias agravantes são infrações:",
+      "choices": [
+        { "id": "A", "text": "danos" },
+        { "id": "B", "text": "pane seca" },
+        { "id": "C", "text": "poluição" },
+        { "id": "D", "text": "reincidência" },
+        { "id": "E", "text": "Som alto" }
+      ],
+      "answer": "D",
+      "tags": [
+        "circunstâncias agravantes",
+        "reincidência",
+        "infrações",
+        "penalidades"
+      ]
+    },
+    {
+      "id": "AA-418",
+      "category": "Legislação",
+      "prompt": "O amador tera sua habilitação cassado quando:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "utilizar a embarcação para prática de crime, já tendo sido apanhado pelo inspetor naval, conduzindo anteriormente carga a bordo"
+        },
+        { "id": "B", "text": "reincidir em navegação, em área proibida" },
+        { "id": "C", "text": "cometer mais uma infração sujeita a multa" },
+        { "id": "D", "text": "conduzir a embarcação sem a devida habilitação" },
+        { "id": "E", "text": "Nenhuma das Alternativas Acima" }
+      ],
+      "answer": "A",
+      "tags": [
+        "habilitação",
+        "cassado",
+        "prática de crime",
+        "reincidência",
+        "carga"
+      ]
+    },
+    {
+      "id": "AA-419",
+      "category": "Segurança",
+      "prompt": "O primeiro método usado de extinção de incêndios, que consistem em reduzir a quantidade de oxigênio para menos de 16% chama-se:",
+      "choices": [
+        { "id": "A", "text": "abafamento" },
+        { "id": "B", "text": "arfagem" },
+        { "id": "C", "text": "oxigenação" },
+        { "id": "D", "text": "resfriamento" },
+        { "id": "E", "text": "Nenhuma das Alternaticas Acima" }
+      ],
+      "answer": "A",
+      "tags": [
+        "extinção de incêndios",
+        "abafamento",
+        "oxigênio",
+        "16%",
+        "primeiro método"
+      ]
+    },
+    {
+      "id": "AA-420",
+      "category": "Equipamentos",
+      "prompt": "O que deve ser amarrado na boia circular, para facilitar o resgate de alguém?",
+      "choices": [
+        { "id": "A", "text": "Um cabo de aço" },
+        { "id": "B", "text": "Um foguete pirotécnico" },
+        { "id": "C", "text": "Uma caixa de primeiros socorros" },
+        { "id": "D", "text": "uma retinida flutuante" },
+        { "id": "E", "text": "cabo de sisal" }
+      ],
+      "answer": "D",
+      "tags": ["boia circular", "retinida flutuante", "resgate", "amarrado"]
+    },
+    {
+      "id": "AA-421",
+      "category": "Sobrevivência",
+      "prompt": "A sobrevivência do náufrago depende do período de permanência em função de:",
+      "choices": [
+        { "id": "A", "text": "correntes marinhas" },
+        { "id": "B", "text": "distância da terra" },
+        { "id": "C", "text": "exposição aos raios solares" },
+        { "id": "D", "text": "temperatura da água do mar" },
+        { "id": "E", "text": "a quantidade de carne na balsa" }
+      ],
+      "answer": "D",
+      "tags": [
+        "sobrevivência",
+        "náufrago",
+        "temperatura da água",
+        "permanência"
+      ]
+    },
+    {
+      "id": "AA-422",
+      "category": "Navegação",
+      "prompt": "A curva que a embarcação faz quando o leme esta para um dos bordos a um determinado grau considerado padrão e a uma determinada velocidade padrão, chama-se:",
+      "choices": [
+        { "id": "A", "text": "curva de ali larga" },
+        { "id": "B", "text": "curva de giro inversa" },
+        { "id": "C", "text": "curva de giro padrão" },
+        { "id": "D", "text": "giro de cambada em roda" },
+        { "id": "E", "text": "inverter o rumo" }
+      ],
+      "answer": "C",
+      "tags": [
+        "curva de giro padrão",
+        "leme",
+        "bordos",
+        "velocidade padrão",
+        "navegação"
+      ]
+    },
+    {
+      "id": "AA-423",
+      "category": "Navegação",
+      "prompt": "A linha de arrebentação das ondas ou, no caso de lagos, lagoas, onde se inicia o espelho d'água e chamada de:",
+      "choices": [
+        { "id": "A", "text": "linha base" },
+        { "id": "B", "text": "linha d'água" },
+        { "id": "C", "text": "linha de arrebentação" },
+        { "id": "D", "text": "linha de espelho" },
+        { "id": "E", "text": "Nivel de redução ou NR" }
+      ],
+      "answer": "A",
+      "tags": [
+        "linha base",
+        "arrebentação",
+        "espelho d'água",
+        "lagos",
+        "lagoas"
+      ]
+    },
+    {
+      "id": "AA-424",
+      "category": "Segurança",
+      "prompt": "É comum se ter incêndio a bordo decorrente de material elétrico mal especificado como:",
+      "choices": [
+        { "id": "A", "text": "disjuntores anti-chamas" },
+        { "id": "B", "text": "disjuntores bem dimensionados" },
+        { "id": "C", "text": "disjuntores com dupla finalidade" },
+        { "id": "D", "text": "disjuntores que provocam grandes centelhas" },
+        { "id": "E", "text": "disjuntores queimados" }
+      ],
+      "answer": "D",
+      "tags": [
+        "incêndio",
+        "material elétrico",
+        "disjuntores",
+        "centelhas",
+        "mal especificado"
+      ]
+    },
+    {
+      "id": "AA-425",
+      "category": "Legislação",
+      "prompt": "Considerando as áreas seletivas para a navegação, definidas pela NORMAM 03, as embarcações de propulsão a motor, reboque de esqui aquático, paraquedas e painéis de publicidade poderão trafegar a partir de:",
+      "choices": [
+        { "id": "A", "text": "50 metros da linha base" },
+        { "id": "B", "text": "100 metros da linha base" },
+        { "id": "C", "text": "200 metros da linha base" },
+        { "id": "D", "text": "300 metros da linha base" },
+        { "id": "E", "text": "500 metros da linha base" }
+      ],
+      "answer": "C",
+      "tags": [
+        "áreas seletivas",
+        "NORMAM 03",
+        "200 metros",
+        "linha base",
+        "propulsão a motor"
+      ]
+    },
+    {
+      "id": "AA-426",
+      "category": "Equipamentos",
+      "prompt": "As embarcações com propulsão somente a vela, com classes padronizadas por tipo para tráfego exclusivamente no período diurno, estão dispensadas de dotar o material de salvatagem prescrito, exceto:",
+      "choices": [
+        { "id": "A", "text": "as boias e os coletes salva-vidas" },
+        { "id": "B", "text": "extintor de incêndios e coletes salva-vidas" },
+        { "id": "C", "text": "os coletes salva-vidas" },
+        {
+          "id": "D",
+          "text": "os coletes salva-vidas e os artefatos pirotécnicos"
+        },
+        { "id": "E", "text": "balsas rigidas" }
+      ],
+      "answer": "C",
+      "tags": [
+        "propulsão a vela",
+        "período diurno",
+        "coletes salva-vidas",
+        "dispensadas",
+        "material de salvatagem"
+      ]
+    },
+    {
+      "id": "AA-427",
+      "category": "Legislação",
+      "prompt": "A prerrogativa de estabelecer o valor da multa e o período de suspensão do certificado de habilitação, respeitados os limites estipulados na RLESTA e da competência:",
+      "choices": [
+        { "id": "A", "text": "da prefeitura Municipal" },
+        { "id": "B", "text": "do governo estadual" },
+        { "id": "C", "text": "do representante da autoridade marítima" },
+        { "id": "D", "text": "do tribunal marítimo" },
+        { "id": "E", "text": "Guarda Municipal" }
+      ],
+      "answer": "C",
+      "tags": [
+        "multa",
+        "suspensão",
+        "certificado de habilitação",
+        "autoridade marítima",
+        "competência"
+      ]
+    },
+    {
+      "id": "AA-428",
+      "category": "Legislação",
+      "prompt": "Quando uma embarcação classificada na navegação do mar aberto (alto mar) estiver navegando em águas interiores, qual a dotação mínima exigida quanto a salvatagem e equipagem de navegação ?",
+      "choices": [
+        { "id": "A", "text": "a da navegação oceanica" },
+        { "id": "B", "text": "a da navegação costeira" },
+        { "id": "C", "text": "a da navegação de alto mar" },
+        { "id": "D", "text": "a da navegação interior de porto" },
+        { "id": "E", "text": "dependera do comprimento da embarcação" }
+      ],
+      "answer": "D",
+      "tags": [
+        "mar aberto",
+        "águas interiores",
+        "navegação interior de porto",
+        "dotação mínima",
+        "salvatagem"
+      ]
+    },
+    {
+      "id": "AA-429",
+      "category": "Penalidades",
+      "prompt": "Trafegar em área reservada a banhistas poderá suspender o certificado de habilitação ate:",
+      "choices": [
+        { "id": "A", "text": "120 dias" },
+        { "id": "B", "text": "90 dias" },
+        { "id": "C", "text": "60 dias" },
+        { "id": "D", "text": "30 dias" },
+        { "id": "E", "text": "15 dias" }
+      ],
+      "answer": "C",
+      "tags": [
+        "área reservada",
+        "banhistas",
+        "suspensão",
+        "60 dias",
+        "certificado de habilitação"
+      ]
+    },
+    {
+      "id": "AA-430",
+      "category": "Legislação",
+      "prompt": "A pena de suspensão da habilitação não poderá ser superior a:",
+      "choices": [
+        { "id": "A", "text": "12 meses" },
+        { "id": "B", "text": "18 meses" },
+        { "id": "C", "text": "24 meses" },
+        { "id": "D", "text": "06 meses" },
+        { "id": "E", "text": "03 meses" }
+      ],
+      "answer": "A",
+      "tags": [
+        "suspensão",
+        "habilitação",
+        "12 meses",
+        "pena máxima",
+        "legislação"
+      ]
+    },
+    {
+      "id": "AA-431",
+      "category": "Segurança",
+      "prompt": "O agente extintor para incêndios, classe D e:",
+      "choices": [
+        { "id": "A", "text": "espuma" },
+        { "id": "B", "text": "gás halon" },
+        { "id": "C", "text": "água" },
+        { "id": "D", "text": "CO2" },
+        { "id": "E", "text": "pó químico seco" }
+      ],
+      "answer": "E",
+      "tags": ["agente extintor", "classe D", "pó químico seco", "incêndios"]
+    },
+    {
+      "id": "AA-432",
+      "category": "Legislação",
+      "prompt": "Um infrator, apos o recebimento do auto de infração, pode apresentar sua defesa num prazo de:",
+      "choices": [
+        { "id": "A", "text": "10 dias" },
+        { "id": "B", "text": "12 dias" },
+        { "id": "C", "text": "13 dias" },
+        { "id": "D", "text": "15 dias" },
+        { "id": "E", "text": "8 dias" }
+      ],
+      "answer": "D",
+      "tags": ["infrator", "auto de infração", "defesa", "15 dias", "prazo"]
+    },
+    {
+      "id": "AA-433",
+      "category": "Sobrevivência",
+      "prompt": "O abandono por barlaventos se justifica por ser onde as manchas de óleo terão menor extensão e:",
+      "choices": [
+        { "id": "A", "text": "a embarcação protegerá a descida do pessoal" },
+        { "id": "B", "text": "as balsas ficaram mais protegidas das ondas" },
+        {
+          "id": "C",
+          "text": "è o lado que o vento esta com menor velkocidade"
+        },
+        { "id": "D", "text": "o pessoal ficará protegido do vento" },
+        {
+          "id": "E",
+          "text": "o abatimento por efeito do vento tornará mais rápido o afastamento da embarcação"
+        }
+      ],
+      "answer": "E",
+      "tags": ["abandono", "barlaventos", "óleo", "abatimento", "afastamento"]
+    },
+    {
+      "id": "AA-434",
+      "category": "Equipamentos",
+      "prompt": "A balsa rígida serve para ser utilizada:",
+      "choices": [
+        { "id": "A", "text": "no caso de recreação a bordo" },
+        { "id": "B", "text": "no caso de incêndio a bordo" },
+        {
+          "id": "C",
+          "text": "para abandonar a embarcação, em caso de emergência"
+        },
+        { "id": "D", "text": "para lazer em proximidades de praias" },
+        {
+          "id": "E",
+          "text": "para ajudar no embarque e desembarque da embarcação"
+        }
+      ],
+      "answer": "C",
+      "tags": [
+        "balsa rígida",
+        "abandonar embarcação",
+        "emergência",
+        "utilização"
+      ]
+    },
+    {
+      "id": "AA-435",
+      "category": "Primeiros Socorros",
+      "prompt": "A condição na qual o corpo humano perde calor mais rapidamente que pode ser produzido chama-se:",
+      "choices": [
+        { "id": "A", "text": "choque" },
+        { "id": "B", "text": "hemorragia" },
+        { "id": "C", "text": "hipotermia" },
+        { "id": "D", "text": "sufocação" },
+        { "id": "E", "text": "hipertermia" }
+      ],
+      "answer": "C",
+      "tags": [
+        "hipotermia",
+        "perda de calor",
+        "corpo humano",
+        "primeiros socorros"
+      ]
+    },
+    {
+      "id": "AA-436",
+      "category": "Segurança",
+      "prompt": "São cuidados que devemos ter com os extintores CO2:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "evitar dirigir o jato diretamente nas chamas para não agitá-las"
+        },
+        {
+          "id": "B",
+          "text": "evitar o contato direto do jato com a pele e olhos"
+        },
+        {
+          "id": "C",
+          "text": "evitar utilizá-lo em equipamentos energizados e ter cuidado ao inverter sua posição"
+        },
+        {
+          "id": "D",
+          "text": "verificar o nível do agente extintor, abrindo sua tampa, e evitar segurar no difusor para não queimar a mão"
+        },
+        { "id": "E", "text": "Nenhuma das Alternativas Acima" }
+      ],
+      "answer": "B",
+      "tags": ["extintores CO2", "cuidados", "pele", "olhos", "contato direto"]
+    },
+    {
+      "id": "AA-437",
+      "category": "Primeiros Socorros",
+      "prompt": "A saída de líquido claro de um ferimento de ouvido significa:",
+      "choices": [
+        { "id": "A", "text": "fratura de mandíbula" },
+        { "id": "B", "text": "fratura de cranio" },
+        { "id": "C", "text": "oclusão das vias aéreas" },
+        { "id": "D", "text": "ruptura do tímpano" },
+        { "id": "E", "text": "Derrame Cerebral" }
+      ],
+      "answer": "B",
+      "tags": [
+        "líquido claro",
+        "ferimento de ouvido",
+        "fratura de crânio",
+        "primeiros socorros"
+      ]
+    },
+    {
+      "id": "AA-438",
+      "category": "Segurança",
+      "prompt": "O vapor de água pode ser utilizado como a gente extintor, por:",
+      "choices": [
+        { "id": "A", "text": "abafamento" },
+        { "id": "B", "text": "aquecimento" },
+        { "id": "C", "text": "reação química" },
+        { "id": "D", "text": "reação em cadeia" },
+        { "id": "E", "text": "resfriamento" }
+      ],
+      "answer": "A",
+      "tags": ["vapor de água", "agente extintor", "abafamento", "incêndio"]
+    },
+    {
+      "id": "AA-439",
+      "category": "Segurança",
+      "prompt": "Os incêndios que ocorrem em equipamentos elétricos ou eletrônicos quando energizados são denominados:",
+      "choices": [
+        { "id": "A", "text": "incêndio classe A" },
+        { "id": "B", "text": "incêndio classe B" },
+        { "id": "C", "text": "incêndio classe C" },
+        { "id": "D", "text": "incêndio classe D" },
+        { "id": "E", "text": "incêndio classe K" }
+      ],
+      "answer": "C",
+      "tags": [
+        "incêndio classe C",
+        "equipamentos elétricos",
+        "eletrônicos",
+        "energizados"
+      ]
+    },
+    {
+      "id": "AA-440",
+      "category": "Segurança",
+      "prompt": "A água e um extintor que pode ser utilizado nos incêndios em:",
+      "choices": [
+        { "id": "A", "text": "equipamento de navegação" },
+        { "id": "B", "text": "líquidos inflamáveis" },
+        { "id": "C", "text": "motores elétricos" },
+        { "id": "D", "text": "onde ha material solido inflamável" },
+        { "id": "E", "text": "Nenhuma das Alternativas Acima" }
+      ],
+      "answer": "D",
+      "tags": ["água", "extintor", "material sólido inflamável", "incêndio"]
+    },
+    {
+      "id": "AA-441",
+      "category": "Navegação",
+      "prompt": "Para fundear devemos:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "inverter a máquina e quando estiver caindo a re, largar a âncora"
+        },
+        { "id": "B", "text": "largar a âncora com seguimento avante" },
+        { "id": "C", "text": "parar máquina e largar ancora" },
+        {
+          "id": "D",
+          "text": "quando a embarcação estiver sem seguimento, largar âncora e dar maquina devagar adiante"
+        },
+        {
+          "id": "E",
+          "text": "pode ser realizado de qualquer modo desde que mantendo o vento pela popa da embarcação"
+        }
+      ],
+      "answer": "A",
+      "tags": [
+        "fundear",
+        "inverter máquina",
+        "caindo a ré",
+        "largar âncora",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "AA-442",
+      "category": "Navegação",
+      "prompt": "Para suspender de um fundeadouro, devemos:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "ir recolhendo a âncora, com máquina devagar adiante, caso a amarra esteja perpendicular a embarcação"
+        },
+        {
+          "id": "B",
+          "text": "ir recolhendo a âncora, com máquina devagar adiante, caso a amarra esteja tesada para avante"
+        },
+        {
+          "id": "C",
+          "text": "ir recolhendo a âncora, com máquina devagar atrás"
+        },
+        {
+          "id": "D",
+          "text": "ir recolhendo a âncora, com máquina devagar avante"
+        },
+        {
+          "id": "E",
+          "text": "ir recolhendo a âncora, observando a posição da amarra em relação Ã proa"
+        }
+      ],
+      "answer": "B",
+      "tags": [
+        "suspender",
+        "fundeadouro",
+        "amarra tesada",
+        "máquina devagar adiante",
+        "procedimento"
+      ]
+    },
+    {
+      "id": "AA-443",
+      "category": "Navegação",
+      "prompt": "Devemos evitar fundear em área:",
+      "choices": [
+        { "id": "A", "text": "com fundo de lama" },
+        {
+          "id": "B",
+          "text": "com possibilidade de ventos e correntes muito fortes"
+        },
+        { "id": "C", "text": "com pouca profundidade" },
+        {
+          "id": "D",
+          "text": "onde o espaço de giro da embarcação seja limitado"
+        },
+        { "id": "E", "text": "com muita profundidade" }
+      ],
+      "answer": "D",
+      "tags": ["fundear", "espaço de giro", "limitado", "evitar", "área"]
+    },
+    {
+      "id": "AA-444",
+      "category": "Navegação",
+      "prompt": "Quando numa embarcação de dois hélices, um deles da re e outro adiante, com a mesma rotação, essa embarcação:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "tende de girar a proa para bordo contrario ao da hélice que da atrás"
+        },
+        {
+          "id": "B",
+          "text": "tende de girar a proa para o mesmo bordo de hélice que da adiante"
+        },
+        {
+          "id": "C",
+          "text": "tende de girar a proa para o mesmo bordo da hélice que da re"
+        },
+        { "id": "D", "text": "tende a seguir em linha reta para avante" },
+        { "id": "E", "text": "tende a seguir em zig e zag" }
+      ],
+      "answer": "C",
+      "tags": [
+        "dois hélices",
+        "ré e adiante",
+        "mesma rotação",
+        "proa",
+        "mesmo bordo"
+      ]
+    },
+    {
+      "id": "AA-445",
+      "category": "Sinalização",
+      "prompt": "O objetivo principal dos sinais especiais e:",
+      "choices": [
+        { "id": "A", "text": "indicar áreas de regata" },
+        {
+          "id": "B",
+          "text": "indicar uma área ou peculiaridade mencionada em documentos náuticos"
+        },
+        { "id": "C", "text": "orientar a navegação em mar aberto" },
+        { "id": "D", "text": "orientar a navegação costeira" },
+        { "id": "E", "text": "orientar navegação interior" }
+      ],
+      "answer": "B",
+      "tags": [
+        "sinais especiais",
+        "área",
+        "peculiaridade",
+        "documentos náuticos",
+        "objetivo"
+      ]
+    },
+    {
+      "id": "AA-446",
+      "category": "Sinalização",
+      "prompt": "A identificação dos sinais durante o dia e feita por:",
+      "choices": [
+        { "id": "A", "text": "marca de tope, cor e tamanho" },
+        { "id": "B", "text": "marca de tope, forma e cor" },
+        { "id": "C", "text": "somente forma e cor" },
+        { "id": "D", "text": "somente marca de tope e cor" },
+        { "id": "E", "text": "somente tamanho" }
+      ],
+      "answer": "B",
+      "tags": ["identificação", "sinais", "marca de tope", "forma", "cor"]
+    },
+    {
+      "id": "AA-447",
+      "category": "Sinalização",
+      "prompt": "Os sinais de perigo isolado servem para indicar:",
+      "choices": [
+        { "id": "A", "text": "pedras submersas" },
+        {
+          "id": "B",
+          "text": "perigos isolados de tamanho limitado, cercados por água navegáveis"
+        },
+        {
+          "id": "C",
+          "text": "perigos isolados de tamanho limitado, cercados por pedras"
+        },
+        { "id": "D", "text": "somente marca de tope e cor" },
+        { "id": "E", "text": "sinais sonoros" }
+      ],
+      "answer": "B",
+      "tags": [
+        "sinais de perigo isolado",
+        "perigos isolados",
+        "tamanho limitado",
+        "água navegável"
+      ]
+    },
+    {
+      "id": "AA-448",
+      "category": "Sinalização",
+      "prompt": "A marca de tope do sinal de perigos isolados sera:",
+      "choices": [
+        { "id": "A", "text": "duas esferas encarnadas" },
+        { "id": "B", "text": "duas esferas pretas" },
+        { "id": "C", "text": "três esferas pretas" },
+        { "id": "D", "text": "uma esfera encarnada" },
+        { "id": "E", "text": "uma esfera preta" }
+      ],
+      "answer": "B",
+      "tags": [
+        "marca de tope",
+        "perigos isolados",
+        "duas esferas pretas",
+        "sinalização"
+      ]
+    },
+    {
+      "id": "AA-449",
+      "category": "Sinalização",
+      "prompt": "O balizamento de interior de porto obedecerá às regras definidas e deverá ser utilizado, pelo navegante, como:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "apenas um auxílio nas manobras de socorro de embarc coes, em águas restritas"
+        },
+        { "id": "B", "text": "orientação para uma navegação segura" },
+        {
+          "id": "C",
+          "text": "uma rota a ser seguida, obrigatoriamente, por qualquer embarcação"
+        },
+        {
+          "id": "D",
+          "text": "uma separação de locais de zonas de tráfego dos canais"
+        },
+        {
+          "id": "E",
+          "text": "uma bifurcação de locais de zonas de tráfego dos canais"
+        }
+      ],
+      "answer": "B",
+      "tags": [
+        "balizamento",
+        "interior de porto",
+        "orientação",
+        "navegação segura",
+        "utilização"
+      ]
+    },
+    {
+      "id": "AA-450",
+      "category": "Sinalização",
+      "prompt": "Uma boia com preto e uma ou mais faixas horizontais encarnadas:",
+      "choices": [
+        { "id": "A", "text": "águas seguras" },
+        { "id": "B", "text": "canal preferencial" },
+        { "id": "C", "text": "limite lateral de canal" },
+        { "id": "D", "text": "perigo isolado" },
+        { "id": "E", "text": "águas seguras" }
+      ],
+      "answer": "D",
+      "tags": [
+        "boia",
+        "preto",
+        "faixas horizontais encarnadas",
+        "perigo isolado",
+        "sinalização"
+      ]
+    },
+    {
+      "id": "AA-451",
+      "category": "Sinalização",
+      "prompt": "As boias do balizamento podem ser, quanto a representação de luzes:",
+      "choices": [
+        { "id": "A", "text": "azuis ou brancas" },
+        { "id": "B", "text": "cegas ou luminosas" },
+        { "id": "C", "text": "esféricas" },
+        { "id": "D", "text": "cilindricas" },
+        { "id": "E", "text": "sem marca de tope" }
+      ],
+      "answer": "B",
+      "tags": [
+        "boias",
+        "balizamento",
+        "cegas",
+        "luminosas",
+        "representação de luzes"
+      ]
+    },
+    {
+      "id": "AA-452",
+      "category": "Sinalização",
+      "prompt": "Uma embarcação navegando a vela, quando também usando sua propulsão mecânica, deve exibir avante, onde melhor possa ser visto:",
+      "choices": [
+        {
+          "id": "A",
+          "text": "uma marca em forma de cone, em vértice para baixo"
+        },
+        {
+          "id": "B",
+          "text": "uma marca em forma de cone, com vértice para cima"
+        },
+        { "id": "C", "text": "uma marca em forma de esfera" },
+        { "id": "D", "text": "uma marca em forma de cilindrica" },
+        { "id": "E", "text": "uma marca em forma de losango" }
+      ],
+      "answer": "A",
+      "tags": [
+        "vela",
+        "propulsão mecânica",
+        "cone",
+        "vértice para baixo",
+        "sinalização"
+      ]
+    },
+    {
+      "id": "AA-453",
+      "category": "Navegação",
+      "prompt": "Com relação à preferência de manobra, uma embarcação a vela deverá manter-se fora do caminho de todas as listadas abaixo, exceto",
+      "choices": [
+        { "id": "A", "text": "Uma embarcação a motor" },
+        {
+          "id": "B",
+          "text": "Uma embarcação com capacidade de manobra restrita"
+        },
+        { "id": "C", "text": "Uma embarcação engajada na pesca" },
+        { "id": "D", "text": "Uma embarcação sem governo" },
+        { "id": "E", "text": "Uma embarcação fundeada" }
+      ],
+      "answer": "A",
+      "tags": [
+        "preferência de manobra",
+        "embarcação a vela",
+        "embarcação a motor",
+        "manter-se fora do caminho"
+      ]
     }
   ]
 }
