@@ -1,7 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Pirata+One&family=Roboto+Slab:wght@300;400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 body {
-  @apply bg-gray-50 text-gray-900;
+  @apply bg-ocean-gradient text-ocean-800 min-h-screen bg-wave-pattern;
+  font-family: "Roboto Slab", serif;
+}
+
+@layer components {
+  /* Nautical Card Component */
+  .nautical-card {
+    @apply bg-white/95 backdrop-blur-sm rounded-xl shadow-2xl border-2 border-nautical-gold/20 overflow-hidden;
+    background-image: radial-gradient(
+        circle at 100% 50%,
+        transparent 20%,
+        rgba(212, 175, 55, 0.05) 21%,
+        rgba(212, 175, 55, 0.05) 34%,
+        transparent 35%,
+        transparent
+      ),
+      linear-gradient(
+        0deg,
+        rgba(255, 255, 255, 0.95),
+        rgba(255, 255, 255, 0.98)
+      );
+  }
+
+  /* Rope Border Effect */
+  .rope-border {
+    position: relative;
+  }
+
+  .rope-border::before {
+    content: "";
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    background: repeating-linear-gradient(
+      45deg,
+      #deb887,
+      #deb887 10px,
+      #cd853f 10px,
+      #cd853f 20px
+    );
+    border-radius: inherit;
+    z-index: -1;
+  }
+
+  /* Wave Animation Component */
+  .waves {
+    position: relative;
+    overflow: hidden;
+  }
+
+  .waves::before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 200%;
+    height: 100px;
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1200 120' preserveAspectRatio='none'%3E%3Cpath d='M321.39,56.44c58-10.79,114.16-30.13,172-41.86,82.39-16.72,168.19-17.73,250.45-.39C823.78,31,906.67,72,985.66,92.83c70.05,18.48,146.53,26.09,214.34,3V0H0V27.35A600.21,600.21,0,0,0,321.39,56.44Z' fill='%23ffffff' fill-opacity='0.1'/%3E%3C/svg%3E");
+    animation: wave 15s ease-in-out infinite;
+  }
+
+  /* Compass Rose */
+  .compass-rose {
+    @apply w-16 h-16 relative animate-spin;
+    animation-duration: 20s;
+  }
+
+  /* Nautical Button */
+  .btn-nautical {
+    @apply px-6 py-3 bg-nautical-gold text-white font-semibold rounded-lg 
+           shadow-lg hover:bg-nautical-gold/90 hover:shadow-xl
+           transform hover:scale-105 transition-all duration-300
+           border-2 border-nautical-gold/30;
+    background-image: linear-gradient(135deg, #d4af37 0%, #ffd700 100%);
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+  }
+
+  .btn-nautical:active {
+    @apply transform scale-95;
+  }
+
+  /* Anchor Icon */
+  .anchor-icon {
+    @apply w-8 h-8 text-nautical-anchor drop-shadow-lg animate-float;
+  }
+
+  /* Lighthouse Beacon */
+  .lighthouse-beacon {
+    animation: lighthouse 4s ease-in-out infinite;
+  }
+
+  @keyframes lighthouse {
+    0%,
+    100% {
+      opacity: 0.3;
+      transform: rotate(0deg);
+    }
+    50% {
+      opacity: 1;
+      transform: rotate(180deg);
+    }
+  }
+
+  /* Ship Sailing Animation */
+  .sailing-ship {
+    @apply animate-float;
+    filter: drop-shadow(0 4px 8px rgba(0, 0, 0, 0.2));
+  }
+
+  /* Treasure Glow */
+  .treasure-glow {
+    @apply animate-pulse;
+    filter: drop-shadow(0 0 8px #d4af37);
+  }
+
+  /* Captain's Rank */
+  .captain-rank {
+    @apply bg-gradient-to-r from-nautical-gold to-yellow-400 text-white px-3 py-1 rounded-full text-sm font-bold;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  }
+
+  /* Question Paper */
+  .question-scroll {
+    @apply bg-nautical-sail border-2 border-nautical-rope rounded-lg p-6 shadow-lg;
+    background-image: linear-gradient(
+        45deg,
+        transparent 40%,
+        rgba(139, 69, 19, 0.05) 50%,
+        transparent 60%
+      ),
+      radial-gradient(
+        ellipse at center,
+        rgba(139, 69, 19, 0.02) 0%,
+        transparent 70%
+      );
+  }
 }

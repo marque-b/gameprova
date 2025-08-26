@@ -75,52 +75,89 @@ function Home() {
   const getStatusColor = (status) => {
     switch (status) {
       case "lobby":
-        return "bg-yellow-100 text-yellow-800";
+        return "bg-nautical-gold/20 text-nautical-gold border border-nautical-gold/40";
       case "running":
-        return "bg-green-100 text-green-800";
+        return "bg-ocean-100 text-ocean-800 border border-ocean-300";
       default:
-        return "bg-gray-100 text-gray-800";
+        return "bg-gray-100 text-gray-800 border border-gray-300";
     }
   };
 
   return (
-    <div className="p-6 max-w-4xl mx-auto">
-      <div className="text-center mb-8">
-        <h1 className="text-3xl font-bold mb-2">GameProva</h1>
-        <p className="text-gray-600 mb-6">
-          Estudo colaborativo de múltipla escolha em rede local.
-        </p>
-        <Link
-          to="/host"
-          className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
-        >
-          <span className="mr-2">🎮</span>
-          Criar Nova Sessão
-        </Link>
+    <div className="min-h-screen p-6 pt-14 max-w-6xl mx-auto">
+      {/* Hero Section */}
+      <div className="text-center mb-12 relative">
+        <div className="absolute top-0 left-1/2 transform -translate-x-1/2 -translate-y-4">
+          <img src="/ship.png" alt="Ship" className="w-20 h-20 sailing-ship" />
+        </div>
+        <div className="pt-16">
+          <h1 className="text-5xl font-nautical mb-4 drop-shadow-2xl">
+            GameProva
+          </h1>
+          <div className="flex items-center justify-center space-x-4">
+            <img
+              src="/anchor.png"
+              alt="Anchor"
+              className="w-6 h-6 anchor-icon"
+            />
+            <Link to="/host" className="btn-nautical inline-flex items-center">
+              <img src="/compass.png" alt="Compass" className="w-6 h-6 mr-2" />
+              CRUD
+            </Link>
+            <img
+              src="/anchor.png"
+              alt="Anchor"
+              className="w-6 h-6 anchor-icon"
+            />
+          </div>
+        </div>
       </div>
 
       {/* Active Sessions Section */}
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-        <div className="bg-gray-50 px-6 py-4 border-b">
-          <h2 className="text-xl font-semibold">Sessões Ativas</h2>
-          <p className="text-sm text-gray-600">
+      <div className="nautical-card">
+        <div className="bg-gradient-to-r from-ocean-500 to-ocean-700 px-6 py-4 border-b relative">
+          <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
+            <img
+              src="/lifebuoy.png"
+              alt="Lifebuoy"
+              className="w-8 h-8 animate-float"
+            />
+          </div>
+          <img src="/sail.png" alt="Sail" className="absolute w-6 h-6 mr-3" />
+          <h2 className="md:text-2xl font-maritime font-bold text-white w-full mx-auto text-center">
+            Sessões Ativas
+          </h2>
+          <p className="text-ocean-100 font-maritime text-xs md:text-base mx-10 text-center">
             Junte-se a uma sessão existente ou crie uma nova
           </p>
         </div>
 
         {loading && (
-          <div className="p-6 text-center">
-            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto"></div>
-            <p className="mt-2 text-gray-600">Carregando sessões...</p>
+          <div className="p-8 text-center">
+            <img
+              src="/compass.png"
+              alt="Compass"
+              className="w-12 h-12 mx-auto compass-rose mb-4"
+            />
+            <p className="text-ocean-700 font-maritime text-lg">
+              Carregando sessões...
+            </p>
           </div>
         )}
 
         {error && (
-          <div className="p-6 text-center">
-            <p className="text-red-600">Erro ao carregar sessões: {error}</p>
+          <div className="p-8 text-center">
+            <img
+              src="/anchor.png"
+              alt="Anchor"
+              className="w-12 h-12 mx-auto mb-4 text-red-500"
+            />
+            <p className="text-red-600 font-maritime text-lg mb-4">
+              Erro ao carregar sessões: {error}
+            </p>
             <button
               onClick={() => window.location.reload()}
-              className="mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
+              className="btn-nautical"
             >
               Tentar novamente
             </button>
@@ -128,46 +165,88 @@ function Home() {
         )}
 
         {!loading && !error && activeSessions.length === 0 && (
-          <div className="p-6 text-center">
-            <p className="text-gray-600">Nenhuma sessão ativa no momento.</p>
-            <p className="text-sm text-gray-500 mt-1">
-              Seja o primeiro a criar uma sessão!
+          <div className="p-8 text-center">
+            <img
+              src="/ship.png"
+              alt="Ship"
+              className="w-16 h-16 mx-auto mb-4 sailing-ship"
+            />
+            <p className="text-ocean-700 font-maritime text-lg">
+              Nenhuma sessão ativa no momento.
             </p>
           </div>
         )}
 
         {!loading && !error && activeSessions.length > 0 && (
-          <div className="divide-y divide-gray-200">
+          <div className="divide-y divide-ocean-200">
             {activeSessions.map((session) => (
               <div
                 key={session.id}
-                className="p-6 hover:bg-gray-50 transition-colors"
+                className="p-3 md:p-6 hover:bg-ocean-50/30 transition-all duration-300 relative group"
               >
-                <div className="flex items-center justify-between">
+                <div className="absolute left-1 md:left-2 top-1/2 transform -translate-y-1/2 opacity-30 group-hover:opacity-60 transition-opacity">
+                  <img
+                    src="/star.png"
+                    alt="Star"
+                    className="w-2 h-2 md:w-4 md:h-4 treasure-glow"
+                  />
+                </div>
+                <div className="flex items-center justify-between ml-4 md:ml-8">
                   <div className="flex-1">
-                    <div className="flex items-center space-x-3 mb-2">
-                      <h3 className="text-lg font-medium">
+                    <div className="flex items-center space-x-2 md:space-x-3 mb-2 md:mb-3">
+                      <h3 className="text-sm md:text-xl font-maritime font-semibold text-ocean-800 flex items-center">
+                        <img
+                          src="/ship.png"
+                          alt="Ship"
+                          className="w-3 h-3 md:w-5 md:h-5 mr-1 md:mr-2"
+                        />
                         Sessão {session.id}
                       </h3>
                       <span
-                        className={`px-2 py-1 rounded-full text-xs font-medium ${getStatusColor(
+                        className={`px-2 md:px-3 py-1 rounded-full text-xs font-bold ${getStatusColor(
                           session.status
                         )}`}
                       >
                         {getStatusText(session.status)}
                       </span>
                     </div>
-                    <div className="text-sm text-gray-600 space-y-1">
-                      <p>Banco: {session.bank?.name || "N/A"}</p>
-                      <p>Jogadores: {session.playerCount}</p>
-                      <p>Perfil: {session.profile}</p>
+                    <div className="text-xs md:text-sm text-ocean-700 space-y-1 font-maritime">
+                      <p className="flex items-center">
+                        <img
+                          src="/ropes.png"
+                          alt="Ropes"
+                          className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2"
+                        />
+                        Banco: {session.bank?.name || "N/A"}
+                      </p>
+                      <p className="flex items-center">
+                        <img
+                          src="/anchor.png"
+                          alt="Anchor"
+                          className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2"
+                        />
+                        Jogadores: {session.playerCount}
+                      </p>
+                      <p className="flex items-center">
+                        <img
+                          src="/compass.png"
+                          alt="Compass"
+                          className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2"
+                        />
+                        Perfil: {session.profile}
+                      </p>
                     </div>
                   </div>
-                  <div className="flex space-x-2">
+                  <div className="flex space-x-2 md:space-x-3">
                     <Link
                       to={`/join/${session.id}`}
-                      className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors text-sm font-medium"
+                      className="btn-nautical flex items-center text-xs md:text-base px-3 md:px-6 py-2 md:py-3"
                     >
+                      <img
+                        src="/sail.png"
+                        alt="Sail"
+                        className="w-3 h-3 md:w-5 md:h-5 mr-1 md:mr-2"
+                      />
                       Entrar
                     </Link>
                   </div>
@@ -281,202 +360,319 @@ function HostHome() {
   const getStatusColor = (status) => {
     switch (status) {
       case "lobby":
-        return "bg-yellow-100 text-yellow-800";
+        return "bg-nautical-gold/20 text-nautical-gold border border-nautical-gold/40";
       case "running":
-        return "bg-green-100 text-green-800";
+        return "bg-ocean-100 text-ocean-800 border border-ocean-300";
       case "finished":
-        return "bg-gray-100 text-gray-800";
+        return "bg-green-100 text-green-800 border border-green-300";
       default:
-        return "bg-gray-100 text-gray-800";
+        return "bg-gray-100 text-gray-800 border border-gray-300";
     }
   };
 
   return (
-    <div className="p-6 max-w-6xl mx-auto space-y-6">
+    <div className="min-h-screen p-6 max-w-6xl mx-auto space-y-8">
       {/* Header */}
-      <div className="flex items-center justify-between">
-        <div>
-          <h1 className="text-3xl font-bold">Painel do Host</h1>
-          <p className="text-gray-600 mt-1">Gerencie suas sessões de jogo</p>
+      <div className="nautical-card">
+        <div className="bg-gradient-to-r from-ocean-600 to-ocean-800 p-6 relative overflow-hidden">
+          <div className="absolute top-0 right-0 opacity-20">
+            <img src="/ship.png" alt="Ship" className="w-32 h-32" />
+          </div>
+          <div className="relative z-10">
+            <div className="flex items-center justify-between">
+              <div>
+                <h1 className="text-4xl font-nautical text-white mb-2">
+                  Painel do Host
+                </h1>
+                <p className="text-ocean-100 text-lg font-maritime">
+                  Gerencie suas sessões de jogo
+                </p>
+              </div>
+              <button
+                onClick={() => setShowCreateForm(!showCreateForm)}
+                className="btn-nautical flex items-center"
+              >
+                <img
+                  src="/compass.png"
+                  alt="Compass"
+                  className="w-5 h-5 mr-2"
+                />
+                {showCreateForm ? "Cancelar" : "Criar Nova Sessão"}
+              </button>
+            </div>
+          </div>
         </div>
-        <button
-          onClick={() => setShowCreateForm(!showCreateForm)}
-          className="px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
-        >
-          {showCreateForm ? "Cancelar" : "Criar Nova Sessão"}
-        </button>
       </div>
 
       {/* Create Session Form */}
       {showCreateForm && (
-        <div className="bg-white rounded-lg shadow-lg p-6 border">
-          <h2 className="text-xl font-semibold mb-4">Criar Nova Sessão</h2>
-          <form onSubmit={handleCreateSession} className="space-y-4">
-            <div className="grid md:grid-cols-2 gap-4">
-              <label className="block">
-                <span className="block text-sm font-medium mb-1">
-                  Banco de Questões
-                </span>
-                <input
-                  className="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  value={formData.bankName}
-                  onChange={(e) =>
-                    setFormData({ ...formData, bankName: e.target.value })
-                  }
-                  placeholder="arrais_amador"
-                />
-              </label>
-              <label className="block">
-                <span className="block text-sm font-medium mb-1">Perfil</span>
-                <select
-                  className="border border-gray-300 rounded-lg p-3 w-full focus:ring-2 focus:ring-blue-500 focus:border-transparent"
-                  value={formData.profile}
-                  onChange={(e) =>
-                    setFormData({ ...formData, profile: e.target.value })
-                  }
-                >
-                  <option value="custom">Custom (síncrono)</option>
-                  <option value="exam">Prova</option>
-                  <option value="streak">Streak (síncrono)</option>
-                </select>
-              </label>
-            </div>
+        <div className="nautical-card">
+          <div className="bg-gradient-to-r from-nautical-gold/10 to-nautical-rope/10 p-6 border-b border-nautical-gold/20">
+            <h2 className="text-2xl font-maritime font-bold text-ocean-800 flex items-center flex-row">
+              <img src="/anchor.png" alt="Anchor" className="w-6 h-6 mr-3" />
+              Criar Nova Sessão
+            </h2>
+          </div>
+          <div className="p-6">
+            <form onSubmit={handleCreateSession} className="space-y-6">
+              <div className="grid md:grid-cols-2 gap-6">
+                <label>
+                  <span className="text-ocean-800 font-maritime font-semibold mb-2 flex items-center">
+                    <img
+                      src="/ropes.png"
+                      alt="Ropes"
+                      className="w-4 h-4 mr-2"
+                    />
+                    Banco de Questões
+                  </span>
+                  <input
+                    className="border-2 border-ocean-200 rounded-lg p-3 w-full focus:ring-2 focus:ring-ocean-500 focus:border-ocean-500 transition-colors font-maritime"
+                    value={formData.bankName}
+                    onChange={(e) =>
+                      setFormData({ ...formData, bankName: e.target.value })
+                    }
+                    placeholder="arrais_amador"
+                  />
+                </label>
+                <label>
+                  <span className="text-ocean-800 font-maritime font-semibold mb-2 flex items-center">
+                    <img src="/sail.png" alt="Sail" className="w-4 h-4 mr-2" />
+                    Perfil
+                  </span>
+                  <select
+                    className="border-2 border-ocean-200 rounded-lg p-3 w-full focus:ring-2 focus:ring-ocean-500 focus:border-ocean-500 transition-colors font-maritime"
+                    value={formData.profile}
+                    onChange={(e) =>
+                      setFormData({ ...formData, profile: e.target.value })
+                    }
+                  >
+                    <option value="custom">Custom (síncrono)</option>
+                    <option value="exam">Prova</option>
+                    <option value="streak">Streak (síncrono)</option>
+                  </select>
+                </label>
+              </div>
 
-            <div className="flex space-x-3">
-              <button
-                type="submit"
-                disabled={creatingSession}
-                className="px-6 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
-              >
-                {creatingSession ? "Criando..." : "Criar Sessão"}
-              </button>
-              <button
-                type="button"
-                onClick={() => setShowCreateForm(false)}
-                className="px-6 py-2 bg-gray-300 text-gray-700 rounded-lg hover:bg-gray-400 transition-colors"
-              >
-                Cancelar
-              </button>
-            </div>
-          </form>
+              <div className="flex space-x-4">
+                <button
+                  type="submit"
+                  disabled={creatingSession}
+                  className="btn-nautical flex items-center disabled:opacity-50 disabled:cursor-not-allowed"
+                >
+                  <img src="/ship.png" alt="Ship" className="w-5 h-5 mr-2" />
+                  {creatingSession ? "Criando..." : "Criar Sessão"}
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setShowCreateForm(false)}
+                  className="px-6 py-3 bg-ocean-200 text-ocean-800 rounded-lg hover:bg-ocean-300 transition-colors font-maritime font-semibold"
+                >
+                  Cancelar
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
       )}
 
       {/* Sessions List */}
-      <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-        <div className="bg-gray-50 px-6 py-4 border-b">
-          <h2 className="text-xl font-semibold">Suas Sessões</h2>
-          <p className="text-sm text-gray-600">
+      <div className="nautical-card">
+        <div className="bg-gradient-to-r from-ocean-500 to-ocean-700 px-6 py-4 border-b relative">
+          <div className="absolute right-4 top-1/2 transform -translate-y-1/2">
+            <img
+              src="/lifebuoy.png"
+              alt="Lifebuoy"
+              className="w-8 h-8 animate-float"
+            />
+          </div>
+          <h2 className="text-2xl font-maritime font-bold text-white flex items-center">
+            <img src="/sail.png" alt="Sail" className="w-6 h-6 mr-3" />
+            Suas Sessões
+          </h2>
+          <p className="text-ocean-100 font-maritime">
             Gerencie e monitore suas sessões ativas
           </p>
         </div>
 
         {loading && (
-          <div className="p-6 text-center">
-            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-blue-600 mx-auto"></div>
-            <p className="mt-2 text-gray-600">Carregando sessões...</p>
+          <div className="p-8 text-center">
+            <img
+              src="/compass.png"
+              alt="Compass"
+              className="w-12 h-12 mx-auto compass-rose mb-4"
+            />
+            <p className="text-ocean-700 font-maritime text-lg">
+              Carregando sessões...
+            </p>
           </div>
         )}
 
         {error && (
-          <div className="p-6 text-center">
-            <p className="text-red-600">Erro ao carregar sessões: {error}</p>
-            <button
-              onClick={fetchSessions}
-              className="mt-2 px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700"
-            >
+          <div className="p-8 text-center">
+            <img
+              src="/anchor.png"
+              alt="Anchor"
+              className="w-12 h-12 mx-auto mb-4 text-red-500"
+            />
+            <p className="text-red-600 font-maritime text-lg mb-4">
+              Erro ao carregar sessões: {error}
+            </p>
+            <button onClick={fetchSessions} className="btn-nautical">
               Tentar novamente
             </button>
           </div>
         )}
 
         {!loading && !error && activeSessions.length === 0 && (
-          <div className="p-6 text-center">
-            <p className="text-gray-600">
+          <div className="p-8 text-center">
+            <img
+              src="/ship.png"
+              alt="Ship"
+              className="w-16 h-16 mx-auto mb-4 sailing-ship"
+            />
+            <p className="text-ocean-700 font-maritime text-lg">
               Você ainda não criou nenhuma sessão.
             </p>
-            <p className="text-sm text-gray-500 mt-1">
+            <p className="text-ocean-600 font-maritime mt-2">
               Clique em "Criar Nova Sessão" para começar!
             </p>
           </div>
         )}
 
         {!loading && !error && activeSessions.length > 0 && (
-          <div className="divide-y divide-gray-200">
+          <div className="divide-y divide-ocean-200">
             {activeSessions.map((session) => (
-              <div key={session.id} className="p-6">
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex-1">
-                    <div className="flex items-center space-x-3 mb-2">
-                      <h3 className="text-lg font-medium">
-                        Sessão {session.id}
-                      </h3>
-                      <span
-                        className={`px-2 py-1 rounded-full text-xs font-medium ${getStatusColor(
-                          session.status
-                        )}`}
-                      >
-                        {getStatusText(session.status)}
-                      </span>
-                    </div>
-                    <div className="text-sm text-gray-600 space-y-1">
-                      <p>Banco: {session.bank?.name || "N/A"}</p>
-                      <p>Jogadores: {session.playerCount}</p>
-                      <p>Perfil: {session.profile}</p>
-                    </div>
-                  </div>
-                  <div className="flex space-x-2">
-                    {session.status === "lobby" && (
-                      <button
-                        onClick={() => handleStartSession(session.id)}
-                        className="px-4 py-2 bg-green-600 text-white rounded-lg hover:bg-green-700 transition-colors text-sm font-medium"
-                      >
-                        Iniciar
-                      </button>
-                    )}
-                    {session.status === "running" && (
-                      <Link
-                        to={`/host/${session.id}`}
-                        className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors text-sm font-medium"
-                      >
-                        Gerenciar
-                      </Link>
-                    )}
-                    {session.status === "finished" && (
-                      <Link
-                        to={`/results/${session.id}`}
-                        className="px-4 py-2 bg-purple-600 text-white rounded-lg hover:bg-purple-700 transition-colors text-sm font-medium"
-                      >
-                        Ver Resultados
-                      </Link>
-                    )}
-                    <button
-                      onClick={() => handleDeleteSession(session.id)}
-                      className="px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors text-sm font-medium"
-                    >
-                      Deletar
-                    </button>
-                  </div>
+              <div
+                key={session.id}
+                className="p-3 md:p-6 hover:bg-ocean-50/30 transition-all duration-300 relative group"
+              >
+                <div className="absolute left-1 md:left-2 top-1/2 transform -translate-y-1/2 opacity-30 group-hover:opacity-60 transition-opacity">
+                  <img
+                    src="/star.png"
+                    alt="Star"
+                    className="w-2 h-2 md:w-4 md:h-4 treasure-glow"
+                  />
                 </div>
+                <div className="ml-4 md:ml-8">
+                  <div className="flex flex-col md:flex-row md:items-center justify-between mb-3 md:mb-4">
+                    <div className="flex-1 mb-3 md:mb-0">
+                      <div className="flex items-center space-x-2 md:space-x-3 mb-2 md:mb-3">
+                        <h3 className="text-sm md:text-xl font-maritime font-semibold text-ocean-800 flex items-center">
+                          <img
+                            src="/ship.png"
+                            alt="Ship"
+                            className="w-3 h-3 md:w-5 md:h-5 mr-1 md:mr-2"
+                          />
+                          Sessão {session.id}
+                        </h3>
+                        <span
+                          className={`px-2 md:px-3 py-1 rounded-full text-xs font-bold ${getStatusColor(
+                            session.status
+                          )}`}
+                        >
+                          {getStatusText(session.status)}
+                        </span>
+                      </div>
+                      <div className="text-xs md:text-sm text-ocean-700 space-y-1 font-maritime">
+                        <p className="flex items-center">
+                          <img
+                            src="/ropes.png"
+                            alt="Ropes"
+                            className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2"
+                          />
+                          Banco: {session.bank?.name || "N/A"}
+                        </p>
+                        <p className="flex items-center">
+                          <img
+                            src="/anchor.png"
+                            alt="Anchor"
+                            className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2"
+                          />
+                          Jogadores: {session.playerCount}
+                        </p>
+                        <p className="flex items-center">
+                          <img
+                            src="/compass.png"
+                            alt="Compass"
+                            className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2"
+                          />
+                          Perfil: {session.profile}
+                        </p>
+                      </div>
+                    </div>
+                    <div className="flex flex-row md:flex-col space-x-2 md:space-x-0 md:space-y-2">
+                      {session.status === "lobby" && (
+                        <button
+                          onClick={() => handleStartSession(session.id)}
+                          className="btn-nautical flex items-center text-xs md:text-sm px-3 md:px-4 py-2"
+                        >
+                          <img
+                            src="/sail.png"
+                            alt="Sail"
+                            className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2"
+                          />
+                          Iniciar
+                        </button>
+                      )}
+                      {session.status === "running" && (
+                        <Link
+                          to={`/host/${session.id}`}
+                          className="btn-nautical flex items-center text-xs md:text-sm px-3 md:px-4 py-2"
+                        >
+                          <img
+                            src="/compass.png"
+                            alt="Compass"
+                            className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2"
+                          />
+                          Gerenciar
+                        </Link>
+                      )}
+                      {session.status === "finished" && (
+                        <Link
+                          to={`/results/${session.id}`}
+                          className="btn-nautical flex items-center text-xs md:text-sm px-3 md:px-4 py-2"
+                        >
+                          <img
+                            src="/star.png"
+                            alt="Star"
+                            className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2"
+                          />
+                          Ver Resultados
+                        </Link>
+                      )}
+                      <button
+                        onClick={() => handleDeleteSession(session.id)}
+                        className="px-2 md:px-4 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition-colors text-xs md:text-sm font-medium"
+                      >
+                        Deletar
+                      </button>
+                    </div>
+                  </div>
 
-                {/* Session Code */}
-                <div className="bg-gray-50 rounded-lg p-3">
-                  <p className="text-sm text-gray-600 mb-2">
-                    Código da sessão para compartilhar:
-                  </p>
-                  <div className="flex items-center space-x-2">
-                    <code className="bg-white px-3 py-2 rounded border text-lg font-mono text-gray-900">
-                      {session.id}
-                    </code>
-                    <button
-                      onClick={() => {
-                        navigator.clipboard.writeText(session.id);
-                        // Adicionar toast notification aqui
-                      }}
-                      className="px-3 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 transition-colors text-sm"
-                    >
-                      📋 Copiar
-                    </button>
+                  {/* Session Code */}
+                  <div className="bg-gradient-to-r from-nautical-gold/10 to-nautical-rope/10 rounded-lg p-2 md:p-4 border border-nautical-gold/20">
+                    <p className="text-xs md:text-sm text-ocean-700 font-maritime font-semibold mb-2 flex items-center">
+                      <img
+                        src="/lifebuoy.png"
+                        alt="Lifebuoy"
+                        className="w-3 h-3 md:w-4 md:h-4 mr-1 md:mr-2"
+                      />
+                      Código da sessão para compartilhar:
+                    </p>
+                    <div className="flex flex-col md:flex-row md:items-center space-y-2 md:space-y-0 md:space-x-3">
+                      <code className="bg-white px-2 md:px-4 py-2 rounded-lg border-2 border-ocean-200 text-sm md:text-lg font-mono text-ocean-900 font-bold">
+                        {session.id}
+                      </code>
+                      <button
+                        onClick={() => {
+                          navigator.clipboard.writeText(session.id);
+                          // Adicionar toast notification aqui
+                        }}
+                        className="btn-nautical flex items-center text-xs md:text-sm px-3 md:px-4 py-2"
+                      >
+                        📋 Copiar
+                      </button>
+                    </div>
                   </div>
                 </div>
               </div>

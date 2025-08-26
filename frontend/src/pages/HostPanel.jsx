@@ -53,7 +53,7 @@ export default function HostPanel() {
     // Conectar como host à sessão (sem se juntar como jogador)
     const socket = useGameStore.getState().ensureSocket();
     debugLog(`Socket connected: ${socket.id}`);
-    
+
     // Emitir evento especial para host (não como jogador)
     socket.emit("host:join", { sessionId });
     debugLog(`Emitted host:join for session: ${sessionId}`);
@@ -347,7 +347,6 @@ export default function HostPanel() {
                       onChange={(v) =>
                         handleUpdateRules({ perQuestionTimeSec: v })
                       }
-                      placeholder="30"
                       helpText="Set to enable timer"
                     />
                   </div>
